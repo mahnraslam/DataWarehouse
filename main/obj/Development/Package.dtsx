@@ -11,11 +11,47 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="35"
-  DTS:VersionGUID="{3067FDD3-DF99-4B39-8D6D-38C843E6C835}">
+  DTS:VersionBuild="38"
+  DTS:VersionGUID="{509D6F79-C3E9-497A-9C71-FE1CEAD3CE92}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Data Connection1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{56F01CBE-7B8E-4D73-BEAB-D7FE85E3D99D}"
+      DTS:ObjectName="Data Connection1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package-{56F01CBE-7B8E-4D73-BEAB-D7FE85E3D99D}Data Connection1;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Data Connection2]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{DB5AA341-DA5D-4DE9-99E4-F87B302773C6}"
+      DTS:ObjectName="Data Connection2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Initial Catalog=Northwind_Source1;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package-{DB5AA341-DA5D-4DE9-99E4-F87B302773C6}Data Connection2;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Data Connection3]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{FC58F322-A150-4F48-97AE-691A828959D0}"
+      DTS:ObjectName="Data Connection3">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Initial Catalog=Northwind_Source2;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package-{FC58F322-A150-4F48-97AE-691A828959D0}Data Connection3;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[DESKTOP-3A244LH\MSSQLSERVER03.Northwind_Source1]"
       DTS:CreationName="OLEDB"
@@ -165,8 +201,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-3A244LH\MSSQLSERVER03.staging_database]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-3A244LH\MSSQLSERVER03.staging_database]"
+                  connectionManagerID="Package.ConnectionManagers[Data Connection1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Data Connection1]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -386,8 +422,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\OLE DB Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-3A244LH\MSSQLSERVER03.Northwind_Source1]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-3A244LH\MSSQLSERVER03.Northwind_Source1]"
+                  connectionManagerID="Package.ConnectionManagers[Data Connection2]"
+                  connectionManagerRefId="Package.ConnectionManagers[Data Connection2]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -687,8 +723,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\OLE DB Source 1.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-3A244LH\MSSQLSERVER03.Northwind_Source2]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-3A244LH\MSSQLSERVER03.Northwind_Source2]"
+                  connectionManagerID="Package.ConnectionManagers[Data Connection3]"
+                  connectionManagerRefId="Package.ConnectionManagers[Data Connection3]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1356,7 +1392,7 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="152,42.6666666666667"
+          Size="152,43"
           Id="Package\Data Flow Task"
           TopLeft="5.5,5.5" />
       </GraphLayout>
@@ -1368,43 +1404,35 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="150.666666666667,42.6666666666667"
+          Size="151,43"
           Id="Package\Data Flow Task\OLE DB Source"
           TopLeft="59.2499975971878,18.3374993878603" />
         <NodeLayout
-          Size="160,42.6666666666667"
-          Id="Package\Data Flow Task\OLE DB Source 1"
-          TopLeft="57.3749976810069,100.237495482564" />
-        <NodeLayout
-          Size="121.333333333334,42.6666666666667"
+          Size="121,43"
           Id="Package\Data Flow Task\Union All"
           TopLeft="286.281238789205,60.6874987989665" />
+        <NodeLayout
+          Size="172,43"
+          Id="Package\Data Flow Task\OLE DB Destination"
+          TopLeft="475.656231664587,57.3750003874301" />
+        <NodeLayout
+          Size="160,43"
+          Id="Package\Data Flow Task\OLE DB Source 1"
+          TopLeft="57.3749976810069,100.237495482564" />
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
-          TopLeft="217.374997681007,121.570828815897">
+          Id="Package\Data Flow Task.Paths[Union All Output 1]"
+          TopLeft="407.614572122538,80.3645829265316">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="68.906241108198,-33.7722189058199"
+              EndConnector="68.0416595420492,0"
               Start="0,0"
-              End="61.406241108198,-33.7722189058199">
+              End="60.5416595420492,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="35.8493924481145,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="35.8493924481145,0"
-                    Point2="39.8493924481145,0"
-                    Point3="39.8493924481145,-4" />
-                  <mssgle:LineSegment
-                    End="39.8493924481145,-29.7722189058199" />
-                  <mssgle:CubicBezierSegment
-                    Point1="39.8493924481145,-29.7722189058199"
-                    Point2="39.8493924481145,-33.7722189058199"
-                    Point3="43.8493924481145,-33.7722189058199" />
-                  <mssgle:LineSegment
-                    End="61.406241108198,-33.7722189058199" />
+                    End="60.5416595420492,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1447,24 +1475,32 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="172,42.6666666666667"
-          Id="Package\Data Flow Task\OLE DB Destination"
-          TopLeft="475.656231664587,57.3750003874301" />
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Union All Output 1]"
-          TopLeft="407.614572122538,80.3645829265316">
+          Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
+          TopLeft="217.374997681007,121.570828815897">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="68.0416595420492,0"
+              EndConnector="68.906241108198,-33.7722189058199"
               Start="0,0"
-              End="60.5416595420492,0">
+              End="61.406241108198,-33.7722189058199">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="60.5416595420492,0" />
+                    End="35.8493924481145,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="35.8493924481145,0"
+                    Point2="39.8493924481145,0"
+                    Point3="39.8493924481145,-4" />
+                  <mssgle:LineSegment
+                    End="39.8493924481145,-29.7722189058199" />
+                  <mssgle:CubicBezierSegment
+                    Point1="39.8493924481145,-29.7722189058199"
+                    Point2="39.8493924481145,-33.7722189058199"
+                    Point3="43.8493924481145,-33.7722189058199" />
+                  <mssgle:LineSegment
+                    End="61.406241108198,-33.7722189058199" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1490,7 +1526,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\OLE DB Source 1">
+    design-time-name="Package\Data Flow Task\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -1503,7 +1539,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\OLE DB Destination">
+    design-time-name="Package\Data Flow Task\OLE DB Source 1">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
