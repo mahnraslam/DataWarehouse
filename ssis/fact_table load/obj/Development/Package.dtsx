@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="95"
-  DTS:VersionGUID="{92AEB508-C999-4069-BFA8-DEE6ED72A674}">
+  DTS:VersionBuild="141"
+  DTS:VersionGUID="{4BC14639-4DB5-42F4-9EB6-4BC4157A78BC}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -120,25 +120,16 @@
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="3"
               DTS:TextQualified="True"
-              DTS:ObjectName="EmployeeID"
-              DTS:DTSID="{5B35D71D-FF09-406E-8528-2A9E01F46A43}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="CustomerID"
-              DTS:DTSID="{9400F227-F9C0-4FBD-BFDB-B169C6C28CC5}"
+              DTS:ObjectName="OrderID"
+              DTS:DTSID="{12891763-157C-4DC9-91D2-BEF04777F185}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="3"
               DTS:TextQualified="True"
-              DTS:ObjectName="OrderID"
-              DTS:DTSID="{98D6A671-48DE-4745-8015-BEF3ECF530E0}"
+              DTS:ObjectName="ProductID"
+              DTS:DTSID="{1C6F84D6-D3F9-4147-B3A0-A7E499732B80}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -148,7 +139,7 @@
               DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="UnitPrice"
-              DTS:DTSID="{3F794ADC-D633-4FA8-9E03-BE6ED173BA15}"
+              DTS:DTSID="{310A402B-7EE4-4CB1-9D2B-043AF5E7CC16}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -156,128 +147,17 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="Quantity"
-              DTS:DTSID="{F9E0BB61-9AF3-4BD2-8E09-A36EB24BB819}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="5"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Discount"
-              DTS:DTSID="{09195CA3-7B0F-494A-9AA2-EE85AE60DDAC}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="ShipVia"
-              DTS:DTSID="{8EA8B712-C81D-4E26-99B7-2A838EDCE101}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="SupplierID"
-              DTS:DTSID="{6C6A546F-CCD7-4715-BF88-E9B17868C297}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="CategoryID"
-              DTS:DTSID="{DFF0F2BF-26EA-4FB1-A07D-3547DAFCCCDA}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="ProductID"
-              DTS:DTSID="{E37E005E-F2E1-493B-A9B7-AE3852CBDF97}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="135"
-              DTS:TextQualified="True"
-              DTS:ObjectName="OrderDate"
-              DTS:DTSID="{ECB1EAA4-4918-44FA-93C9-EB9D52D0EC37}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="ProductKey"
-              DTS:DTSID="{AAF5877D-5092-4489-98F9-118F5D1D6A52}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="ShipperKey"
-              DTS:DTSID="{50579BC1-D281-47E2-A137-0BD6295BC6C2}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="SupplierKey"
-              DTS:DTSID="{AA6BD69F-4AA1-4595-8084-6FA0FDB65773}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="EmployeeKey"
-              DTS:DTSID="{509E3138-236C-4A03-A00F-1D0FAD521205}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Copy of CustomerID"
-              DTS:DTSID="{8531FCAD-A7AA-42D3-90E4-0DBEC5F2444A}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="133"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Copy of OrderDate"
-              DTS:DTSID="{1C5A342D-4C5B-4A27-9398-59F9AF675700}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="CustomerKey"
-              DTS:DTSID="{6C5BC56B-1149-4912-8CBB-277E91C24EE3}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="TimeKey"
-              DTS:DTSID="{18C3654F-AD0B-4806-83CC-89269A3A4C9F}"
+              DTS:DTSID="{18390FF7-72F5-4C1E-BFEC-314EB8379974}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:DataType="5"
+              DTS:DataType="131"
+              DTS:DataPrecision="4"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
-              DTS:ObjectName="SaleAmount"
-              DTS:DTSID="{7DC99B1E-3BC5-4AC8-935A-6E317A5FEB84}"
+              DTS:ObjectName="Discount"
+              DTS:DTSID="{8BB80DB7-DC23-4009-92D5-ABD8D2EFF16C}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -929,792 +809,36 @@
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 5]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{807E5F0F-BE61-4C6E-AED6-AAEC194C1463}"
+      DTS:ObjectName="Flat File Connection Manager 5">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\confiz\Downloads\1.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="OrderID"
+              DTS:DTSID="{1B962086-5A55-4738-9A23-7092D7FCCA79}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
   <DTS:Variables />
   <DTS:Executables>
-    <DTS:Executable
-      DTS:refId="Package\Data Flow Task"
-      DTS:CreationName="Microsoft.Pipeline"
-      DTS:Description="Data Flow Task"
-      DTS:DTSID="{E812BBC5-B176-4223-8B50-7617505727E6}"
-      DTS:ExecutableType="Microsoft.Pipeline"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="Data Flow Task">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <pipeline
-          version="1">
-          <components>
-            <component
-              refId="Package\Data Flow Task\Order Details"
-              componentClassID="Microsoft.OLEDBSource"
-              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
-              description="OLE DB Source"
-              name="Order Details"
-              usesDispositions="true"
-              version="7">
-              <properties>
-                <property
-                  dataType="System.Int32"
-                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                  name="CommandTimeout">0</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[OrderDetails]</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the variable that contains the name of the database object used to open a rowset."
-                  name="OpenRowsetVariable"></property>
-                <property
-                  dataType="System.String"
-                  description="The SQL command to be executed."
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
-                <property
-                  dataType="System.String"
-                  description="The variable that contains the SQL command to be executed."
-                  name="SqlCommandVariable"></property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the column code page to use when code page information is unavailable from the data source."
-                  name="DefaultCodePage">1252</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Forces the use of the DefaultCodePage property value when describing character data."
-                  name="AlwaysUseDefaultCodePage">false</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the mode used to access the database."
-                  name="AccessMode"
-                  typeConverter="AccessMode">0</property>
-                <property
-                  dataType="System.String"
-                  description="The mappings between the parameters in the SQL command and variables."
-                  name="ParameterMapping"></property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Data Flow Task\Order Details.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Data Connection2]"
-                  connectionManagerRefId="Package.ConnectionManagers[Data Connection2]"
-                  description="The OLE DB runtime connection used to access the database."
-                  name="OleDbConnection" />
-              </connections>
-              <outputs>
-                <output
-                  refId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output]"
-                  name="OLE DB Source Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].Columns[OrderID]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].ExternalColumns[OrderID]"
-                      lineageId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].Columns[OrderID]"
-                      name="OrderID"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].Columns[ProductID]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].ExternalColumns[ProductID]"
-                      lineageId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].Columns[ProductID]"
-                      name="ProductID"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].Columns[UnitPrice]"
-                      dataType="numeric"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].ExternalColumns[UnitPrice]"
-                      lineageId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].Columns[UnitPrice]"
-                      name="UnitPrice"
-                      precision="10"
-                      scale="2"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].Columns[Quantity]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].ExternalColumns[Quantity]"
-                      lineageId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].Columns[Quantity]"
-                      name="Quantity"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].Columns[Discount]"
-                      dataType="numeric"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].ExternalColumns[Discount]"
-                      lineageId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].Columns[Discount]"
-                      name="Discount"
-                      precision="4"
-                      scale="2"
-                      truncationRowDisposition="FailComponent" />
-                  </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].ExternalColumns[OrderID]"
-                      dataType="i4"
-                      name="OrderID" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].ExternalColumns[ProductID]"
-                      dataType="i4"
-                      name="ProductID" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].ExternalColumns[UnitPrice]"
-                      dataType="numeric"
-                      name="UnitPrice"
-                      precision="10"
-                      scale="2" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].ExternalColumns[Quantity]"
-                      dataType="i4"
-                      name="Quantity" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].ExternalColumns[Discount]"
-                      dataType="numeric"
-                      name="Discount"
-                      precision="4"
-                      scale="2" />
-                  </externalMetadataColumns>
-                </output>
-                <output
-                  refId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Error Output]"
-                  isErrorOut="true"
-                  name="OLE DB Source Error Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Error Output].Columns[OrderID]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Error Output].Columns[OrderID]"
-                      name="OrderID" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Error Output].Columns[ProductID]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Error Output].Columns[ProductID]"
-                      name="ProductID" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Error Output].Columns[UnitPrice]"
-                      dataType="numeric"
-                      lineageId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Error Output].Columns[UnitPrice]"
-                      name="UnitPrice"
-                      precision="10"
-                      scale="2" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Error Output].Columns[Quantity]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Error Output].Columns[Quantity]"
-                      name="Quantity" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Error Output].Columns[Discount]"
-                      dataType="numeric"
-                      lineageId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Error Output].Columns[Discount]"
-                      name="Discount"
-                      precision="4"
-                      scale="2" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Data Flow Task\Order Details 1"
-              componentClassID="Microsoft.OLEDBSource"
-              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
-              description="OLE DB Source"
-              name="Order Details 1"
-              usesDispositions="true"
-              version="7">
-              <properties>
-                <property
-                  dataType="System.Int32"
-                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                  name="CommandTimeout">0</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[OrderDetails]</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the variable that contains the name of the database object used to open a rowset."
-                  name="OpenRowsetVariable"></property>
-                <property
-                  dataType="System.String"
-                  description="The SQL command to be executed."
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
-                <property
-                  dataType="System.String"
-                  description="The variable that contains the SQL command to be executed."
-                  name="SqlCommandVariable"></property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the column code page to use when code page information is unavailable from the data source."
-                  name="DefaultCodePage">1252</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Forces the use of the DefaultCodePage property value when describing character data."
-                  name="AlwaysUseDefaultCodePage">false</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the mode used to access the database."
-                  name="AccessMode"
-                  typeConverter="AccessMode">0</property>
-                <property
-                  dataType="System.String"
-                  description="The mappings between the parameters in the SQL command and variables."
-                  name="ParameterMapping"></property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Data Flow Task\Order Details 1.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Data Connection3]"
-                  connectionManagerRefId="Package.ConnectionManagers[Data Connection3]"
-                  description="The OLE DB runtime connection used to access the database."
-                  name="OleDbConnection" />
-              </connections>
-              <outputs>
-                <output
-                  refId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output]"
-                  name="OLE DB Source Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].Columns[OrderID]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].ExternalColumns[OrderID]"
-                      lineageId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].Columns[OrderID]"
-                      name="OrderID"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].Columns[ProductID]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].ExternalColumns[ProductID]"
-                      lineageId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].Columns[ProductID]"
-                      name="ProductID"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].Columns[UnitPrice]"
-                      dataType="numeric"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].ExternalColumns[UnitPrice]"
-                      lineageId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].Columns[UnitPrice]"
-                      name="UnitPrice"
-                      precision="10"
-                      scale="2"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].Columns[Quantity]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].ExternalColumns[Quantity]"
-                      lineageId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].Columns[Quantity]"
-                      name="Quantity"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].Columns[Discount]"
-                      dataType="numeric"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].ExternalColumns[Discount]"
-                      lineageId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].Columns[Discount]"
-                      name="Discount"
-                      precision="4"
-                      scale="2"
-                      truncationRowDisposition="FailComponent" />
-                  </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].ExternalColumns[OrderID]"
-                      dataType="i4"
-                      name="OrderID" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].ExternalColumns[ProductID]"
-                      dataType="i4"
-                      name="ProductID" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].ExternalColumns[UnitPrice]"
-                      dataType="numeric"
-                      name="UnitPrice"
-                      precision="10"
-                      scale="2" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].ExternalColumns[Quantity]"
-                      dataType="i4"
-                      name="Quantity" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].ExternalColumns[Discount]"
-                      dataType="numeric"
-                      name="Discount"
-                      precision="4"
-                      scale="2" />
-                  </externalMetadataColumns>
-                </output>
-                <output
-                  refId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Error Output]"
-                  isErrorOut="true"
-                  name="OLE DB Source Error Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Error Output].Columns[OrderID]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Error Output].Columns[OrderID]"
-                      name="OrderID" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Error Output].Columns[ProductID]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Error Output].Columns[ProductID]"
-                      name="ProductID" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Error Output].Columns[UnitPrice]"
-                      dataType="numeric"
-                      lineageId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Error Output].Columns[UnitPrice]"
-                      name="UnitPrice"
-                      precision="10"
-                      scale="2" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Error Output].Columns[Quantity]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Error Output].Columns[Quantity]"
-                      name="Quantity" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Error Output].Columns[Discount]"
-                      dataType="numeric"
-                      lineageId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Error Output].Columns[Discount]"
-                      name="Discount"
-                      precision="4"
-                      scale="2" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Data Flow Task\stg_order_details"
-              componentClassID="Microsoft.OLEDBDestination"
-              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
-              description="OLE DB Destination"
-              name="stg_order_details"
-              usesDispositions="true"
-              version="4">
-              <properties>
-                <property
-                  dataType="System.Int32"
-                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                  name="CommandTimeout">0</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[Stg_OrderDetails]</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the variable that contains the name of the database object used to open a rowset."
-                  name="OpenRowsetVariable"></property>
-                <property
-                  dataType="System.String"
-                  description="The SQL command to be executed."
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the column code page to use when code page information is unavailable from the data source."
-                  name="DefaultCodePage">1252</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Forces the use of the DefaultCodePage property value when describing character data."
-                  name="AlwaysUseDefaultCodePage">false</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the mode used to access the database."
-                  name="AccessMode"
-                  typeConverter="AccessMode">3</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
-                  name="FastLoadKeepIdentity">false</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
-                  name="FastLoadKeepNulls">false</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
-                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
-                  name="FastLoadMaxInsertCommitSize">2147483647</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Data Flow Task\stg_order_details.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Data Connection1]"
-                  connectionManagerRefId="Package.ConnectionManagers[Data Connection1]"
-                  description="The OLE DB runtime connection used to access the database."
-                  name="OleDbConnection" />
-              </connections>
-              <inputs>
-                <input
-                  refId="Package\Data Flow Task\stg_order_details.Inputs[OLE DB Destination Input]"
-                  errorOrTruncationOperation="Insert"
-                  errorRowDisposition="FailComponent"
-                  hasSideEffects="true"
-                  name="OLE DB Destination Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Data Flow Task\stg_order_details.Inputs[OLE DB Destination Input].Columns[OrderID]"
-                      cachedDataType="i4"
-                      cachedName="OrderID"
-                      externalMetadataColumnId="Package\Data Flow Task\stg_order_details.Inputs[OLE DB Destination Input].ExternalColumns[OrderID]"
-                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[OrderID]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\stg_order_details.Inputs[OLE DB Destination Input].Columns[ProductID]"
-                      cachedDataType="i4"
-                      cachedName="ProductID"
-                      externalMetadataColumnId="Package\Data Flow Task\stg_order_details.Inputs[OLE DB Destination Input].ExternalColumns[ProductID]"
-                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[ProductID]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\stg_order_details.Inputs[OLE DB Destination Input].Columns[UnitPrice]"
-                      cachedDataType="numeric"
-                      cachedName="UnitPrice"
-                      cachedPrecision="10"
-                      cachedScale="2"
-                      externalMetadataColumnId="Package\Data Flow Task\stg_order_details.Inputs[OLE DB Destination Input].ExternalColumns[UnitPrice]"
-                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[UnitPrice]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\stg_order_details.Inputs[OLE DB Destination Input].Columns[Quantity]"
-                      cachedDataType="i4"
-                      cachedName="Quantity"
-                      externalMetadataColumnId="Package\Data Flow Task\stg_order_details.Inputs[OLE DB Destination Input].ExternalColumns[Quantity]"
-                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Quantity]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\stg_order_details.Inputs[OLE DB Destination Input].Columns[Discount]"
-                      cachedDataType="numeric"
-                      cachedName="Discount"
-                      cachedPrecision="4"
-                      cachedScale="2"
-                      externalMetadataColumnId="Package\Data Flow Task\stg_order_details.Inputs[OLE DB Destination Input].ExternalColumns[Discount]"
-                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Discount]" />
-                  </inputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\stg_order_details.Inputs[OLE DB Destination Input].ExternalColumns[OrderID]"
-                      dataType="i4"
-                      name="OrderID" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\stg_order_details.Inputs[OLE DB Destination Input].ExternalColumns[ProductID]"
-                      dataType="i4"
-                      name="ProductID" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\stg_order_details.Inputs[OLE DB Destination Input].ExternalColumns[UnitPrice]"
-                      dataType="numeric"
-                      name="UnitPrice"
-                      precision="10"
-                      scale="2" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\stg_order_details.Inputs[OLE DB Destination Input].ExternalColumns[Quantity]"
-                      dataType="i4"
-                      name="Quantity" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\stg_order_details.Inputs[OLE DB Destination Input].ExternalColumns[Discount]"
-                      dataType="numeric"
-                      name="Discount"
-                      precision="4"
-                      scale="2" />
-                  </externalMetadataColumns>
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Data Flow Task\stg_order_details.Outputs[OLE DB Destination Error Output]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Data Flow Task\stg_order_details.Inputs[OLE DB Destination Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\stg_order_details.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\stg_order_details.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\stg_order_details.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\stg_order_details.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Data Flow Task\Union All"
-              componentClassID="Microsoft.UnionAll"
-              contactInfo="Union All;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Combines rows from multiple data flows without sorting. For example, add rows back to a data flow after correction of errors. If sorting is important, we recommend using the Merge transformation."
-              name="Union All"
-              version="1">
-              <inputs>
-                <input
-                  refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1]"
-                  name="Union All Input 1">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[OrderID]"
-                      cachedDataType="i4"
-                      cachedName="OrderID"
-                      lineageId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].Columns[OrderID]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[OrderID]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[ProductID]"
-                      cachedDataType="i4"
-                      cachedName="ProductID"
-                      lineageId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].Columns[ProductID]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[ProductID]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[UnitPrice]"
-                      cachedDataType="numeric"
-                      cachedName="UnitPrice"
-                      cachedPrecision="10"
-                      cachedScale="2"
-                      lineageId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].Columns[UnitPrice]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[UnitPrice]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[Quantity]"
-                      cachedDataType="i4"
-                      cachedName="Quantity"
-                      lineageId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].Columns[Quantity]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Quantity]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 1].Columns[Discount]"
-                      cachedDataType="numeric"
-                      cachedName="Discount"
-                      cachedPrecision="4"
-                      cachedScale="2"
-                      lineageId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output].Columns[Discount]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Discount]}</property>
-                      </properties>
-                    </inputColumn>
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-                <input
-                  refId="Package\Data Flow Task\Union All.Inputs[Union All Input 2]"
-                  hasSideEffects="true"
-                  name="Union All Input 2">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 2].Columns[OrderID]"
-                      cachedDataType="i4"
-                      cachedName="OrderID"
-                      lineageId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].Columns[OrderID]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[OrderID]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 2].Columns[ProductID]"
-                      cachedDataType="i4"
-                      cachedName="ProductID"
-                      lineageId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].Columns[ProductID]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[ProductID]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 2].Columns[UnitPrice]"
-                      cachedDataType="numeric"
-                      cachedName="UnitPrice"
-                      cachedPrecision="10"
-                      cachedScale="2"
-                      lineageId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].Columns[UnitPrice]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[UnitPrice]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 2].Columns[Quantity]"
-                      cachedDataType="i4"
-                      cachedName="Quantity"
-                      lineageId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].Columns[Quantity]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Quantity]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 2].Columns[Discount]"
-                      cachedDataType="numeric"
-                      cachedName="Discount"
-                      cachedPrecision="4"
-                      cachedScale="2"
-                      lineageId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output].Columns[Discount]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Discount]}</property>
-                      </properties>
-                    </inputColumn>
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-                <input
-                  refId="Package\Data Flow Task\Union All.Inputs[Union All Input 3]"
-                  dangling="true"
-                  hasSideEffects="true"
-                  name="Union All Input 3">
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1]"
-                  name="Union All Output 1">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[OrderID]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[OrderID]"
-                      name="OrderID" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[ProductID]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[ProductID]"
-                      name="ProductID" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[UnitPrice]"
-                      dataType="numeric"
-                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[UnitPrice]"
-                      name="UnitPrice"
-                      precision="10"
-                      scale="2" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Quantity]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Quantity]"
-                      name="Quantity" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Discount]"
-                      dataType="numeric"
-                      lineageId="Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Discount]"
-                      name="Discount"
-                      precision="4"
-                      scale="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-          </components>
-          <paths>
-            <path
-              refId="Package\Data Flow Task.Paths[OLE DB Source Output]"
-              endId="Package\Data Flow Task\Union All.Inputs[Union All Input 1]"
-              name="OLE DB Source Output"
-              startId="Package\Data Flow Task\Order Details.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Data Flow Task.Paths[OLE DB Source Output1]"
-              endId="Package\Data Flow Task\Union All.Inputs[Union All Input 2]"
-              name="OLE DB Source Output"
-              startId="Package\Data Flow Task\Order Details 1.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Data Flow Task.Paths[Union All Output 1]"
-              endId="Package\Data Flow Task\stg_order_details.Inputs[OLE DB Destination Input]"
-              name="Union All Output 1"
-              startId="Package\Data Flow Task\Union All.Outputs[Union All Output 1]" />
-          </paths>
-        </pipeline>
-      </DTS:ObjectData>
-    </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\load"
       DTS:CreationName="Microsoft.Pipeline"
@@ -2047,7 +1171,7 @@ where [refTable].[EmployeeKey] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\load\618:invalid};</property>
+                  name="ParameterMap">#{Package\load\588:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -2205,7 +1329,7 @@ where [refTable].[ShipperKey] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\load\619:invalid};</property>
+                  name="ParameterMap">#{Package\load\Merge Join 1.Outputs[Merge Join Output].Columns[ShipVia]};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -2342,31 +1466,31 @@ where [refTable].[ShipperKey] = ?</property>
                       cachedDataType="i4"
                       cachedName="OrderID"
                       cachedSortKeyPosition="1"
-                      lineageId="Package\load\Order_details.Outputs[OLE DB Source Output].Columns[OrderID]" />
+                      lineageId="Package\load\Sort 1.Outputs[Sort Output].Columns[OrderID]" />
                     <inputColumn
                       refId="Package\load\Merge Join.Inputs[Merge Join Left Input].Columns[ProductID]"
                       cachedDataType="i4"
                       cachedName="ProductID"
-                      lineageId="Package\load\Order_details.Outputs[OLE DB Source Output].Columns[ProductID]" />
+                      lineageId="Package\load\Sort 1.Outputs[Sort Output].Columns[ProductID]" />
                     <inputColumn
                       refId="Package\load\Merge Join.Inputs[Merge Join Left Input].Columns[UnitPrice]"
                       cachedDataType="numeric"
                       cachedName="UnitPrice"
                       cachedPrecision="10"
                       cachedScale="2"
-                      lineageId="Package\load\Order_details.Outputs[OLE DB Source Output].Columns[UnitPrice]" />
+                      lineageId="Package\load\Sort 1.Outputs[Sort Output].Columns[UnitPrice]" />
                     <inputColumn
                       refId="Package\load\Merge Join.Inputs[Merge Join Left Input].Columns[Quantity]"
                       cachedDataType="i4"
                       cachedName="Quantity"
-                      lineageId="Package\load\Order_details.Outputs[OLE DB Source Output].Columns[Quantity]" />
+                      lineageId="Package\load\Sort 1.Outputs[Sort Output].Columns[Quantity]" />
                     <inputColumn
                       refId="Package\load\Merge Join.Inputs[Merge Join Left Input].Columns[Discount]"
                       cachedDataType="numeric"
                       cachedName="Discount"
                       cachedPrecision="4"
                       cachedScale="2"
-                      lineageId="Package\load\Order_details.Outputs[OLE DB Source Output].Columns[Discount]" />
+                      lineageId="Package\load\Sort 1.Outputs[Sort Output].Columns[Discount]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -2382,11 +1506,6 @@ where [refTable].[ShipperKey] = ?</property>
                       cachedSortKeyPosition="1"
                       lineageId="Package\load\Orders.Outputs[OLE DB Source Output].Columns[OrderID]" />
                     <inputColumn
-                      refId="Package\load\Merge Join.Inputs[Merge Join Right Input].Columns[EmployeeID]"
-                      cachedDataType="i4"
-                      cachedName="EmployeeID"
-                      lineageId="Package\load\Orders.Outputs[OLE DB Source Output].Columns[EmployeeID]" />
-                    <inputColumn
                       refId="Package\load\Merge Join.Inputs[Merge Join Right Input].Columns[CustomerID]"
                       cachedCodepage="1252"
                       cachedDataType="str"
@@ -2394,15 +1513,20 @@ where [refTable].[ShipperKey] = ?</property>
                       cachedName="CustomerID"
                       lineageId="Package\load\Orders.Outputs[OLE DB Source Output].Columns[CustomerID]" />
                     <inputColumn
-                      refId="Package\load\Merge Join.Inputs[Merge Join Right Input].Columns[ShipVia]"
+                      refId="Package\load\Merge Join.Inputs[Merge Join Right Input].Columns[EmployeeID]"
                       cachedDataType="i4"
-                      cachedName="ShipVia"
-                      lineageId="Package\load\Orders.Outputs[OLE DB Source Output].Columns[ShipVia]" />
+                      cachedName="EmployeeID"
+                      lineageId="Package\load\Orders.Outputs[OLE DB Source Output].Columns[EmployeeID]" />
                     <inputColumn
                       refId="Package\load\Merge Join.Inputs[Merge Join Right Input].Columns[OrderDate]"
                       cachedDataType="dbDate"
                       cachedName="OrderDate"
                       lineageId="Package\load\Orders.Outputs[OLE DB Source Output].Columns[OrderDate]" />
+                    <inputColumn
+                      refId="Package\load\Merge Join.Inputs[Merge Join Right Input].Columns[ShipVia]"
+                      cachedDataType="i4"
+                      cachedName="ShipVia"
+                      lineageId="Package\load\Orders.Outputs[OLE DB Source Output].Columns[ShipVia]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -2413,34 +1537,6 @@ where [refTable].[ShipperKey] = ?</property>
                   isSorted="true"
                   name="Merge Join Output">
                   <outputColumns>
-                    <outputColumn
-                      refId="Package\load\Merge Join.Outputs[Merge Join Output].Columns[EmployeeID]"
-                      dataType="i4"
-                      lineageId="Package\load\Merge Join.Outputs[Merge Join Output].Columns[EmployeeID]"
-                      name="EmployeeID">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\load\Merge Join.Inputs[Merge Join Right Input].Columns[EmployeeID]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\load\Merge Join.Outputs[Merge Join Output].Columns[CustomerID]"
-                      codePage="1252"
-                      dataType="str"
-                      length="10"
-                      lineageId="Package\load\Merge Join.Outputs[Merge Join Output].Columns[CustomerID]"
-                      name="CustomerID">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\load\Merge Join.Inputs[Merge Join Right Input].Columns[CustomerID]}</property>
-                      </properties>
-                    </outputColumn>
                     <outputColumn
                       refId="Package\load\Merge Join.Outputs[Merge Join Output].Columns[OrderID]"
                       dataType="i4"
@@ -2512,16 +1608,44 @@ where [refTable].[ShipperKey] = ?</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\load\Merge Join.Outputs[Merge Join Output].Columns[ShipVia]"
+                      refId="Package\load\Merge Join.Outputs[Merge Join Output].Columns[OrderID (1)]"
                       dataType="i4"
-                      lineageId="Package\load\Merge Join.Outputs[Merge Join Output].Columns[ShipVia]"
-                      name="ShipVia">
+                      lineageId="Package\load\Merge Join.Outputs[Merge Join Output].Columns[OrderID (1)]"
+                      name="OrderID (1)">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\load\Merge Join.Inputs[Merge Join Right Input].Columns[ShipVia]}</property>
+                          name="InputColumnID">#{Package\load\Merge Join.Inputs[Merge Join Right Input].Columns[OrderID]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\load\Merge Join.Outputs[Merge Join Output].Columns[CustomerID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      lineageId="Package\load\Merge Join.Outputs[Merge Join Output].Columns[CustomerID]"
+                      name="CustomerID">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\load\Merge Join.Inputs[Merge Join Right Input].Columns[CustomerID]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\load\Merge Join.Outputs[Merge Join Output].Columns[EmployeeID]"
+                      dataType="i4"
+                      lineageId="Package\load\Merge Join.Outputs[Merge Join Output].Columns[EmployeeID]"
+                      name="EmployeeID">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\load\Merge Join.Inputs[Merge Join Right Input].Columns[EmployeeID]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -2535,6 +1659,19 @@ where [refTable].[ShipperKey] = ?</property>
                           dataType="System.Int32"
                           description="The input column associated with this output column"
                           name="InputColumnID">#{Package\load\Merge Join.Inputs[Merge Join Right Input].Columns[OrderDate]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\load\Merge Join.Outputs[Merge Join Output].Columns[ShipVia]"
+                      dataType="i4"
+                      lineageId="Package\load\Merge Join.Outputs[Merge Join Output].Columns[ShipVia]"
+                      name="ShipVia">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\load\Merge Join.Inputs[Merge Join Right Input].Columns[ShipVia]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -3731,7 +2868,6 @@ where [refTable].[ShipperKey] = ?</property>
               <outputs>
                 <output
                   refId="Package\load\Order_details.Outputs[OLE DB Source Output]"
-                  isSorted="true"
                   name="OLE DB Source Output">
                   <outputColumns>
                     <outputColumn
@@ -3742,7 +2878,6 @@ where [refTable].[ShipperKey] = ?</property>
                       externalMetadataColumnId="Package\load\Order_details.Outputs[OLE DB Source Output].ExternalColumns[OrderID]"
                       lineageId="Package\load\Order_details.Outputs[OLE DB Source Output].Columns[OrderID]"
                       name="OrderID"
-                      sortKeyPosition="1"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\load\Order_details.Outputs[OLE DB Source Output].Columns[ProductID]"
@@ -4431,6 +3566,198 @@ where [refTable].[ProductKey] = ?</property>
               </outputs>
             </component>
             <component
+              refId="Package\load\Sort 1"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+              name="Sort 1"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                  name="EliminateDuplicates">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of threads to use for sorting."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\load\Sort 1.Inputs[Sort Input]"
+                  name="Sort Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\load\Sort 1.Inputs[Sort Input].Columns[OrderID]"
+                      cachedDataType="i4"
+                      cachedName="OrderID"
+                      lineageId="Package\load\Order_details.Outputs[OLE DB Source Output].Columns[OrderID]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\load\Sort 1.Inputs[Sort Input].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      lineageId="Package\load\Order_details.Outputs[OLE DB Source Output].Columns[ProductID]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\load\Sort 1.Inputs[Sort Input].Columns[UnitPrice]"
+                      cachedDataType="numeric"
+                      cachedName="UnitPrice"
+                      cachedPrecision="10"
+                      cachedScale="2"
+                      lineageId="Package\load\Order_details.Outputs[OLE DB Source Output].Columns[UnitPrice]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\load\Sort 1.Inputs[Sort Input].Columns[Quantity]"
+                      cachedDataType="i4"
+                      cachedName="Quantity"
+                      lineageId="Package\load\Order_details.Outputs[OLE DB Source Output].Columns[Quantity]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\load\Sort 1.Inputs[Sort Input].Columns[Discount]"
+                      cachedDataType="numeric"
+                      cachedName="Discount"
+                      cachedPrecision="4"
+                      cachedScale="2"
+                      lineageId="Package\load\Order_details.Outputs[OLE DB Source Output].Columns[Discount]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\load\Sort 1.Outputs[Sort Output]"
+                  isSorted="true"
+                  name="Sort Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\load\Sort 1.Outputs[Sort Output].Columns[OrderID]"
+                      dataType="i4"
+                      lineageId="Package\load\Sort 1.Outputs[Sort Output].Columns[OrderID]"
+                      name="OrderID"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\load\Order_details.Outputs[OLE DB Source Output].Columns[OrderID]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\load\Sort 1.Outputs[Sort Output].Columns[ProductID]"
+                      dataType="i4"
+                      lineageId="Package\load\Sort 1.Outputs[Sort Output].Columns[ProductID]"
+                      name="ProductID">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\load\Order_details.Outputs[OLE DB Source Output].Columns[ProductID]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\load\Sort 1.Outputs[Sort Output].Columns[UnitPrice]"
+                      dataType="numeric"
+                      lineageId="Package\load\Sort 1.Outputs[Sort Output].Columns[UnitPrice]"
+                      name="UnitPrice"
+                      precision="10"
+                      scale="2">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\load\Order_details.Outputs[OLE DB Source Output].Columns[UnitPrice]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\load\Sort 1.Outputs[Sort Output].Columns[Quantity]"
+                      dataType="i4"
+                      lineageId="Package\load\Sort 1.Outputs[Sort Output].Columns[Quantity]"
+                      name="Quantity">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\load\Order_details.Outputs[OLE DB Source Output].Columns[Quantity]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\load\Sort 1.Outputs[Sort Output].Columns[Discount]"
+                      dataType="numeric"
+                      lineageId="Package\load\Sort 1.Outputs[Sort Output].Columns[Discount]"
+                      name="Discount"
+                      precision="4"
+                      scale="2">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\load\Order_details.Outputs[OLE DB Source Output].Columns[Discount]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\load\Supplier key"
               componentClassID="Microsoft.Lookup"
               contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
@@ -4487,7 +3814,7 @@ where [refTable].[SupplierKey] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\load\620:invalid};</property>
+                  name="ParameterMap">#{Package\load\589:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -4790,17 +4117,17 @@ where [refTable].[Date] = ?</property>
               startId="Package\load\Prod key.Outputs[Lookup Match Output]" />
             <path
               refId="Package\load.Paths[Merge Join Output]"
-              endId="Package\load\Sort.Inputs[Sort Input]"
-              name="Merge Join Output"
-              startId="Package\load\Merge Join.Outputs[Merge Join Output]" />
-            <path
-              refId="Package\load.Paths[Merge Join Output1]"
               endId="Package\load\Prod key.Inputs[Lookup Input]"
               name="Merge Join Output"
               startId="Package\load\Merge Join 1.Outputs[Merge Join Output]" />
             <path
+              refId="Package\load.Paths[Merge Join Output1]"
+              endId="Package\load\Sort.Inputs[Sort Input]"
+              name="Merge Join Output"
+              startId="Package\load\Merge Join.Outputs[Merge Join Output]" />
+            <path
               refId="Package\load.Paths[OLE DB Source Output]"
-              endId="Package\load\Merge Join.Inputs[Merge Join Left Input]"
+              endId="Package\load\Sort 1.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\load\Order_details.Outputs[OLE DB Source Output]" />
             <path
@@ -4818,6 +4145,794 @@ where [refTable].[Date] = ?</property>
               endId="Package\load\Merge Join 1.Inputs[Merge Join Left Input]"
               name="Sort Output"
               startId="Package\load\Sort.Outputs[Sort Output]" />
+            <path
+              refId="Package\load.Paths[Sort Output1]"
+              endId="Package\load\Merge Join.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\load\Sort 1.Outputs[Sort Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Order Details"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{E812BBC5-B176-4223-8B50-7617505727E6}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Order Details">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Order Details\Order Details"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="Order Details"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[OrderDetails]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Order Details\Order Details.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Data Connection2]"
+                  connectionManagerRefId="Package.ConnectionManagers[Data Connection2]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Order Details\Order Details.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].Columns[OrderID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].ExternalColumns[OrderID]"
+                      lineageId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].Columns[OrderID]"
+                      name="OrderID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].Columns[ProductID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].ExternalColumns[ProductID]"
+                      lineageId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].Columns[ProductID]"
+                      name="ProductID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].Columns[UnitPrice]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].ExternalColumns[UnitPrice]"
+                      lineageId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].Columns[UnitPrice]"
+                      name="UnitPrice"
+                      precision="10"
+                      scale="2"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].Columns[Quantity]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].ExternalColumns[Quantity]"
+                      lineageId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].Columns[Quantity]"
+                      name="Quantity"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].Columns[Discount]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].ExternalColumns[Discount]"
+                      lineageId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].Columns[Discount]"
+                      name="Discount"
+                      precision="4"
+                      scale="2"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].ExternalColumns[OrderID]"
+                      dataType="i4"
+                      name="OrderID" />
+                    <externalMetadataColumn
+                      refId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].ExternalColumns[ProductID]"
+                      dataType="i4"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].ExternalColumns[UnitPrice]"
+                      dataType="numeric"
+                      name="UnitPrice"
+                      precision="10"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].ExternalColumns[Quantity]"
+                      dataType="i4"
+                      name="Quantity" />
+                    <externalMetadataColumn
+                      refId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].ExternalColumns[Discount]"
+                      dataType="numeric"
+                      name="Discount"
+                      precision="4"
+                      scale="2" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Order Details\Order Details.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Order Details\Order Details.Outputs[OLE DB Source Error Output].Columns[OrderID]"
+                      dataType="i4"
+                      lineageId="Package\Order Details\Order Details.Outputs[OLE DB Source Error Output].Columns[OrderID]"
+                      name="OrderID" />
+                    <outputColumn
+                      refId="Package\Order Details\Order Details.Outputs[OLE DB Source Error Output].Columns[ProductID]"
+                      dataType="i4"
+                      lineageId="Package\Order Details\Order Details.Outputs[OLE DB Source Error Output].Columns[ProductID]"
+                      name="ProductID" />
+                    <outputColumn
+                      refId="Package\Order Details\Order Details.Outputs[OLE DB Source Error Output].Columns[UnitPrice]"
+                      dataType="numeric"
+                      lineageId="Package\Order Details\Order Details.Outputs[OLE DB Source Error Output].Columns[UnitPrice]"
+                      name="UnitPrice"
+                      precision="10"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\Order Details\Order Details.Outputs[OLE DB Source Error Output].Columns[Quantity]"
+                      dataType="i4"
+                      lineageId="Package\Order Details\Order Details.Outputs[OLE DB Source Error Output].Columns[Quantity]"
+                      name="Quantity" />
+                    <outputColumn
+                      refId="Package\Order Details\Order Details.Outputs[OLE DB Source Error Output].Columns[Discount]"
+                      dataType="numeric"
+                      lineageId="Package\Order Details\Order Details.Outputs[OLE DB Source Error Output].Columns[Discount]"
+                      name="Discount"
+                      precision="4"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\Order Details\Order Details.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Order Details\Order Details.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Order Details\Order Details.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Order Details\Order Details.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Order Details\Order Details 1"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="Order Details 1"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[OrderDetails]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Order Details\Order Details 1.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Data Connection3]"
+                  connectionManagerRefId="Package.ConnectionManagers[Data Connection3]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].Columns[OrderID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].ExternalColumns[OrderID]"
+                      lineageId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].Columns[OrderID]"
+                      name="OrderID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].Columns[ProductID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].ExternalColumns[ProductID]"
+                      lineageId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].Columns[ProductID]"
+                      name="ProductID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].Columns[UnitPrice]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].ExternalColumns[UnitPrice]"
+                      lineageId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].Columns[UnitPrice]"
+                      name="UnitPrice"
+                      precision="10"
+                      scale="2"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].Columns[Quantity]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].ExternalColumns[Quantity]"
+                      lineageId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].Columns[Quantity]"
+                      name="Quantity"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].Columns[Discount]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].ExternalColumns[Discount]"
+                      lineageId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].Columns[Discount]"
+                      name="Discount"
+                      precision="4"
+                      scale="2"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].ExternalColumns[OrderID]"
+                      dataType="i4"
+                      name="OrderID" />
+                    <externalMetadataColumn
+                      refId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].ExternalColumns[ProductID]"
+                      dataType="i4"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].ExternalColumns[UnitPrice]"
+                      dataType="numeric"
+                      name="UnitPrice"
+                      precision="10"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].ExternalColumns[Quantity]"
+                      dataType="i4"
+                      name="Quantity" />
+                    <externalMetadataColumn
+                      refId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].ExternalColumns[Discount]"
+                      dataType="numeric"
+                      name="Discount"
+                      precision="4"
+                      scale="2" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Error Output].Columns[OrderID]"
+                      dataType="i4"
+                      lineageId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Error Output].Columns[OrderID]"
+                      name="OrderID" />
+                    <outputColumn
+                      refId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Error Output].Columns[ProductID]"
+                      dataType="i4"
+                      lineageId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Error Output].Columns[ProductID]"
+                      name="ProductID" />
+                    <outputColumn
+                      refId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Error Output].Columns[UnitPrice]"
+                      dataType="numeric"
+                      lineageId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Error Output].Columns[UnitPrice]"
+                      name="UnitPrice"
+                      precision="10"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Error Output].Columns[Quantity]"
+                      dataType="i4"
+                      lineageId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Error Output].Columns[Quantity]"
+                      name="Quantity" />
+                    <outputColumn
+                      refId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Error Output].Columns[Discount]"
+                      dataType="numeric"
+                      lineageId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Error Output].Columns[Discount]"
+                      name="Discount"
+                      precision="4"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Order Details\stg_order_details"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="stg_order_details"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[Stg_OrderDetails]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Order Details\stg_order_details.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Data Connection1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Data Connection1]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Order Details\stg_order_details.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Order Details\stg_order_details.Inputs[OLE DB Destination Input].Columns[OrderID]"
+                      cachedDataType="i4"
+                      cachedName="OrderID"
+                      externalMetadataColumnId="Package\Order Details\stg_order_details.Inputs[OLE DB Destination Input].ExternalColumns[OrderID]"
+                      lineageId="Package\Order Details\Union All.Outputs[Union All Output 1].Columns[OrderID]" />
+                    <inputColumn
+                      refId="Package\Order Details\stg_order_details.Inputs[OLE DB Destination Input].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      externalMetadataColumnId="Package\Order Details\stg_order_details.Inputs[OLE DB Destination Input].ExternalColumns[ProductID]"
+                      lineageId="Package\Order Details\Union All.Outputs[Union All Output 1].Columns[ProductID]" />
+                    <inputColumn
+                      refId="Package\Order Details\stg_order_details.Inputs[OLE DB Destination Input].Columns[UnitPrice]"
+                      cachedDataType="numeric"
+                      cachedName="UnitPrice"
+                      cachedPrecision="10"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Order Details\stg_order_details.Inputs[OLE DB Destination Input].ExternalColumns[UnitPrice]"
+                      lineageId="Package\Order Details\Union All.Outputs[Union All Output 1].Columns[UnitPrice]" />
+                    <inputColumn
+                      refId="Package\Order Details\stg_order_details.Inputs[OLE DB Destination Input].Columns[Quantity]"
+                      cachedDataType="i4"
+                      cachedName="Quantity"
+                      externalMetadataColumnId="Package\Order Details\stg_order_details.Inputs[OLE DB Destination Input].ExternalColumns[Quantity]"
+                      lineageId="Package\Order Details\Union All.Outputs[Union All Output 1].Columns[Quantity]" />
+                    <inputColumn
+                      refId="Package\Order Details\stg_order_details.Inputs[OLE DB Destination Input].Columns[Discount]"
+                      cachedDataType="numeric"
+                      cachedName="Discount"
+                      cachedPrecision="4"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Order Details\stg_order_details.Inputs[OLE DB Destination Input].ExternalColumns[Discount]"
+                      lineageId="Package\Order Details\Union All.Outputs[Union All Output 1].Columns[Discount]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Order Details\stg_order_details.Inputs[OLE DB Destination Input].ExternalColumns[OrderID]"
+                      dataType="i4"
+                      name="OrderID" />
+                    <externalMetadataColumn
+                      refId="Package\Order Details\stg_order_details.Inputs[OLE DB Destination Input].ExternalColumns[ProductID]"
+                      dataType="i4"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\Order Details\stg_order_details.Inputs[OLE DB Destination Input].ExternalColumns[UnitPrice]"
+                      dataType="numeric"
+                      name="UnitPrice"
+                      precision="10"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Order Details\stg_order_details.Inputs[OLE DB Destination Input].ExternalColumns[Quantity]"
+                      dataType="i4"
+                      name="Quantity" />
+                    <externalMetadataColumn
+                      refId="Package\Order Details\stg_order_details.Inputs[OLE DB Destination Input].ExternalColumns[Discount]"
+                      dataType="numeric"
+                      name="Discount"
+                      precision="4"
+                      scale="2" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Order Details\stg_order_details.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Order Details\stg_order_details.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Order Details\stg_order_details.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Order Details\stg_order_details.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Order Details\stg_order_details.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Order Details\stg_order_details.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Order Details\Union All"
+              componentClassID="Microsoft.UnionAll"
+              contactInfo="Union All;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Combines rows from multiple data flows without sorting. For example, add rows back to a data flow after correction of errors. If sorting is important, we recommend using the Merge transformation."
+              name="Union All"
+              version="1">
+              <inputs>
+                <input
+                  refId="Package\Order Details\Union All.Inputs[Union All Input 1]"
+                  name="Union All Input 1">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Order Details\Union All.Inputs[Union All Input 1].Columns[OrderID]"
+                      cachedDataType="i4"
+                      cachedName="OrderID"
+                      lineageId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].Columns[OrderID]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Order Details\Union All.Outputs[Union All Output 1].Columns[OrderID]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Order Details\Union All.Inputs[Union All Input 1].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      lineageId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].Columns[ProductID]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Order Details\Union All.Outputs[Union All Output 1].Columns[ProductID]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Order Details\Union All.Inputs[Union All Input 1].Columns[UnitPrice]"
+                      cachedDataType="numeric"
+                      cachedName="UnitPrice"
+                      cachedPrecision="10"
+                      cachedScale="2"
+                      lineageId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].Columns[UnitPrice]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Order Details\Union All.Outputs[Union All Output 1].Columns[UnitPrice]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Order Details\Union All.Inputs[Union All Input 1].Columns[Quantity]"
+                      cachedDataType="i4"
+                      cachedName="Quantity"
+                      lineageId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].Columns[Quantity]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Order Details\Union All.Outputs[Union All Output 1].Columns[Quantity]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Order Details\Union All.Inputs[Union All Input 1].Columns[Discount]"
+                      cachedDataType="numeric"
+                      cachedName="Discount"
+                      cachedPrecision="4"
+                      cachedScale="2"
+                      lineageId="Package\Order Details\Order Details.Outputs[OLE DB Source Output].Columns[Discount]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Order Details\Union All.Outputs[Union All Output 1].Columns[Discount]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Order Details\Union All.Inputs[Union All Input 2]"
+                  hasSideEffects="true"
+                  name="Union All Input 2">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Order Details\Union All.Inputs[Union All Input 2].Columns[OrderID]"
+                      cachedDataType="i4"
+                      cachedName="OrderID"
+                      lineageId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].Columns[OrderID]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Order Details\Union All.Outputs[Union All Output 1].Columns[OrderID]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Order Details\Union All.Inputs[Union All Input 2].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      lineageId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].Columns[ProductID]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Order Details\Union All.Outputs[Union All Output 1].Columns[ProductID]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Order Details\Union All.Inputs[Union All Input 2].Columns[UnitPrice]"
+                      cachedDataType="numeric"
+                      cachedName="UnitPrice"
+                      cachedPrecision="10"
+                      cachedScale="2"
+                      lineageId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].Columns[UnitPrice]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Order Details\Union All.Outputs[Union All Output 1].Columns[UnitPrice]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Order Details\Union All.Inputs[Union All Input 2].Columns[Quantity]"
+                      cachedDataType="i4"
+                      cachedName="Quantity"
+                      lineageId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].Columns[Quantity]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Order Details\Union All.Outputs[Union All Output 1].Columns[Quantity]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Order Details\Union All.Inputs[Union All Input 2].Columns[Discount]"
+                      cachedDataType="numeric"
+                      cachedName="Discount"
+                      cachedPrecision="4"
+                      cachedScale="2"
+                      lineageId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output].Columns[Discount]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Order Details\Union All.Outputs[Union All Output 1].Columns[Discount]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Order Details\Union All.Inputs[Union All Input 3]"
+                  dangling="true"
+                  hasSideEffects="true"
+                  name="Union All Input 3">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Order Details\Union All.Outputs[Union All Output 1]"
+                  name="Union All Output 1">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Order Details\Union All.Outputs[Union All Output 1].Columns[OrderID]"
+                      dataType="i4"
+                      lineageId="Package\Order Details\Union All.Outputs[Union All Output 1].Columns[OrderID]"
+                      name="OrderID" />
+                    <outputColumn
+                      refId="Package\Order Details\Union All.Outputs[Union All Output 1].Columns[ProductID]"
+                      dataType="i4"
+                      lineageId="Package\Order Details\Union All.Outputs[Union All Output 1].Columns[ProductID]"
+                      name="ProductID" />
+                    <outputColumn
+                      refId="Package\Order Details\Union All.Outputs[Union All Output 1].Columns[UnitPrice]"
+                      dataType="numeric"
+                      lineageId="Package\Order Details\Union All.Outputs[Union All Output 1].Columns[UnitPrice]"
+                      name="UnitPrice"
+                      precision="10"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\Order Details\Union All.Outputs[Union All Output 1].Columns[Quantity]"
+                      dataType="i4"
+                      lineageId="Package\Order Details\Union All.Outputs[Union All Output 1].Columns[Quantity]"
+                      name="Quantity" />
+                    <outputColumn
+                      refId="Package\Order Details\Union All.Outputs[Union All Output 1].Columns[Discount]"
+                      dataType="numeric"
+                      lineageId="Package\Order Details\Union All.Outputs[Union All Output 1].Columns[Discount]"
+                      name="Discount"
+                      precision="4"
+                      scale="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Order Details.Paths[OLE DB Source Output]"
+              endId="Package\Order Details\Union All.Inputs[Union All Input 1]"
+              name="OLE DB Source Output"
+              startId="Package\Order Details\Order Details.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Order Details.Paths[OLE DB Source Output1]"
+              endId="Package\Order Details\Union All.Inputs[Union All Input 2]"
+              name="OLE DB Source Output"
+              startId="Package\Order Details\Order Details 1.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Order Details.Paths[Union All Output 1]"
+              endId="Package\Order Details\stg_order_details.Inputs[OLE DB Destination Input]"
+              name="Union All Output 1"
+              startId="Package\Order Details\Union All.Outputs[Union All Output 1]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -7546,9 +7661,13 @@ where [refTable].[Date] = ?</property>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="151,42"
-          Id="Package\Data Flow Task"
+          Size="141,42"
+          Id="Package\Order Details"
           TopLeft="36.5,45.5" />
+        <NodeLayout
+          Size="99,42"
+          Id="Package\load"
+          TopLeft="36.5,312" />
         <NodeLayout
           Size="128,42"
           Id="Package\Orders stg"
@@ -7557,36 +7676,66 @@ where [refTable].[Date] = ?</property>
           Size="132,42"
           Id="Package\Product stg"
           TopLeft="36.5,210" />
-        <NodeLayout
-          Size="99,42"
-          Id="Package\load"
-          TopLeft="36.5,312" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\Data Flow Task">
+    design-time-name="Package\Order Details">
     <LayoutInfo>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="160,42"
-          Id="Package\Data Flow Task\stg_order_details"
+          Id="Package\Order Details\stg_order_details"
           TopLeft="111,231" />
         <NodeLayout
-          Size="141,42"
-          Id="Package\Data Flow Task\Order Details"
-          TopLeft="85,25" />
-        <NodeLayout
           Size="121,42"
-          Id="Package\Data Flow Task\Union All"
+          Id="Package\Order Details\Union All"
           TopLeft="167,91" />
         <NodeLayout
           Size="141,42"
-          Id="Package\Data Flow Task\Order Details 1"
+          Id="Package\Order Details\Order Details 1"
           TopLeft="279,21" />
+        <NodeLayout
+          Size="141,42"
+          Id="Package\Order Details\Order Details"
+          TopLeft="85,25" />
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[OLE DB Source Output1]"
+          Id="Package\Order Details.Paths[Union All Output 1]"
+          TopLeft="227.5,133">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-36.5,98"
+              Start="0,0"
+              End="-36.5,90.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,45" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,45"
+                    Point2="0,49"
+                    Point3="-4,49" />
+                  <mssgle:LineSegment
+                    End="-32.5,49" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-32.5,49"
+                    Point2="-36.5,49"
+                    Point3="-36.5,53" />
+                  <mssgle:LineSegment
+                    End="-36.5,90.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Order Details.Paths[OLE DB Source Output1]"
           TopLeft="349.5,63">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7620,7 +7769,7 @@ where [refTable].[Date] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
+          Id="Package\Order Details.Paths[OLE DB Source Output]"
           TopLeft="155.5,67">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7653,45 +7802,11 @@ where [refTable].[Date] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Union All Output 1]"
-          TopLeft="227.5,133">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-36.5,98"
-              Start="0,0"
-              End="-36.5,90.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,45" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,45"
-                    Point2="0,49"
-                    Point3="-4,49" />
-                  <mssgle:LineSegment
-                    End="-32.5,49" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-32.5,49"
-                    Point2="-36.5,49"
-                    Point3="-36.5,53" />
-                  <mssgle:LineSegment
-                    End="-36.5,90.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\stg_order_details">
+    design-time-name="Package\Order Details\stg_order_details">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -7704,7 +7819,7 @@ where [refTable].[Date] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Order Details">
+    design-time-name="Package\Order Details\Order Details 1">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -7717,324 +7832,7 @@ where [refTable].[Date] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Order Details 1">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Orders stg">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="106,42"
-          Id="Package\Orders stg\Order"
-          TopLeft="60,64" />
-        <NodeLayout
-          Size="115,42"
-          Id="Package\Orders stg\Order 1"
-          TopLeft="264,59" />
-        <NodeLayout
-          Size="121,42"
-          Id="Package\Orders stg\Union All"
-          TopLeft="227,165" />
-        <EdgeLayout
-          Id="Package\Orders stg.Paths[OLE DB Source Output]"
-          TopLeft="113,106">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="174.5,59"
-              Start="0,0"
-              End="174.5,51.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.5"
-                    Point2="0,29.5"
-                    Point3="4,29.5" />
-                  <mssgle:LineSegment
-                    End="170.5,29.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="170.5,29.5"
-                    Point2="174.5,29.5"
-                    Point3="174.5,33.5" />
-                  <mssgle:LineSegment
-                    End="174.5,51.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Orders stg.Paths[OLE DB Source Output1]"
-          TopLeft="321.5,101">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-15.1666666666667,64"
-              Start="0,0"
-              End="-15.1666666666667,56.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,33.8988580750408" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,33.8988580750408"
-                    Point2="0,37.8988580750408"
-                    Point3="-4,37.8988580750408" />
-                  <mssgle:LineSegment
-                    End="-11.1666666666667,37.8988580750408" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-11.1666666666667,37.8988580750408"
-                    Point2="-15.1666666666667,37.8988580750408"
-                    Point3="-15.1666666666667,41.8988580750408" />
-                  <mssgle:LineSegment
-                    End="-15.1666666666667,56.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="171,42"
-          Id="Package\Orders stg\OLE DB Destination"
-          TopLeft="248,244" />
-        <EdgeLayout
-          Id="Package\Orders stg.Paths[Union All Output 1]"
-          TopLeft="287.5,207">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="46,37"
-              Start="0,0"
-              End="46,29.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,14.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,14.5"
-                    Point2="0,18.5"
-                    Point3="4,18.5" />
-                  <mssgle:LineSegment
-                    End="42,18.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="42,18.5"
-                    Point2="46,18.5"
-                    Point3="46,22.5" />
-                  <mssgle:LineSegment
-                    End="46,29.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Orders stg\Order">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Orders stg\Order 1">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Product stg">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="124,42"
-          Id="Package\Product stg\Product 2"
-          TopLeft="302,37" />
-        <NodeLayout
-          Size="124,42"
-          Id="Package\Product stg\Product 1"
-          TopLeft="120,40" />
-        <NodeLayout
-          Size="121,42"
-          Id="Package\Product stg\Union All"
-          TopLeft="264,122" />
-        <EdgeLayout
-          Id="Package\Product stg.Paths[OLE DB Source Output1]"
-          TopLeft="364,79">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-20.6666666666667,43"
-              Start="0,0"
-              End="-20.6666666666667,35.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21.463295269168" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,21.463295269168"
-                    Point2="0,25.463295269168"
-                    Point3="-4,25.463295269168" />
-                  <mssgle:LineSegment
-                    End="-16.6666666666667,25.463295269168" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-16.6666666666667,25.463295269168"
-                    Point2="-20.6666666666667,25.463295269168"
-                    Point3="-20.6666666666667,29.463295269168" />
-                  <mssgle:LineSegment
-                    End="-20.6666666666667,35.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Product stg.Paths[OLE DB Source Output]"
-          TopLeft="182,82">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="142.5,40"
-              Start="0,0"
-              End="142.5,32.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16"
-                    Point2="0,20"
-                    Point3="4,20" />
-                  <mssgle:LineSegment
-                    End="138.5,20" />
-                  <mssgle:CubicBezierSegment
-                    Point1="138.5,20"
-                    Point2="142.5,20"
-                    Point3="142.5,24" />
-                  <mssgle:LineSegment
-                    End="142.5,32.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="171,42"
-          Id="Package\Product stg\OLE DB Destination"
-          TopLeft="302,228" />
-        <EdgeLayout
-          Id="Package\Product stg.Paths[Union All Output 1]"
-          TopLeft="324.5,164">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="63,64"
-              Start="0,0"
-              End="63,56.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,28" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,28"
-                    Point2="0,32"
-                    Point3="4,32" />
-                  <mssgle:LineSegment
-                    End="59,32" />
-                  <mssgle:CubicBezierSegment
-                    Point1="59,32"
-                    Point2="63,32"
-                    Point3="63,36" />
-                  <mssgle:LineSegment
-                    End="63,56.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Product stg\Product 2">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Product stg\Product 1">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Product stg\OLE DB Destination">
+    design-time-name="Package\Order Details\Order Details">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -8052,84 +7850,64 @@ where [refTable].[Date] = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="142,42"
-          Id="Package\load\Employer key"
-          TopLeft="486,279.222222222222" />
-        <NodeLayout
-          Size="130,42"
-          Id="Package\load\Merge Join"
-          TopLeft="168,52.2222222222222" />
-        <NodeLayout
-          Size="111,42"
-          Id="Package\load\Orders"
-          TopLeft="284.388888888889,0.5" />
-        <NodeLayout
-          Size="137,42"
-          Id="Package\load\Supplier key"
-          TopLeft="392,217.222222222222" />
-        <NodeLayout
-          Size="156,42"
-          Id="Package\load\Data Conversion"
-          TopLeft="319,324.222222222222" />
-        <NodeLayout
-          Size="122,42"
-          Id="Package\load\Time key"
-          TopLeft="341,403.222222222222" />
-        <NodeLayout
-          Size="98,42"
-          Id="Package\load\Sort"
-          TopLeft="370.666666666667,53.7777777777778" />
-        <NodeLayout
-          Size="143,42"
-          Id="Package\load\Customer key"
-          TopLeft="161,360.222222222222" />
+          Size="154,42"
+          Id="Package\load\Got Shipper key"
+          TopLeft="202,244.222222222222" />
         <NodeLayout
           Size="129,42"
           Id="Package\load\Sales Price"
-          TopLeft="201.333333333333,458.888888888889" />
+          TopLeft="213.333333333333,477.888888888889" />
+        <NodeLayout
+          Size="111,42"
+          Id="Package\load\Orders"
+          TopLeft="172.388888888889,8.5" />
+        <NodeLayout
+          Size="156,42"
+          Id="Package\load\Data Conversion"
+          TopLeft="331,343.222222222222" />
+        <NodeLayout
+          Size="120,42"
+          Id="Package\load\Prod key"
+          TopLeft="325,154" />
         <NodeLayout
           Size="171,42"
           Id="Package\load\OLE DB Destination"
-          TopLeft="422.222222222222,488.888888888889" />
+          TopLeft="434.222222222222,507.888888888889" />
         <NodeLayout
-          Size="154,42"
-          Id="Package\load\Got Shipper key"
-          TopLeft="190,225.222222222222" />
+          Size="150,42"
+          Id="Package\load\OLE DB Source"
+          TopLeft="513,46" />
+        <NodeLayout
+          Size="139,42"
+          Id="Package\load\Merge Join 1"
+          TopLeft="546,154" />
+        <NodeLayout
+          Size="98,42"
+          Id="Package\load\Sort"
+          TopLeft="382.666666666667,72.7777777777778" />
         <NodeLayout
           Size="142,42"
           Id="Package\load\Order_details"
-          TopLeft="56,8.22222222222222" />
-        <EdgeLayout
-          Id="Package\load.Paths[OLE DB Source Output]"
-          TopLeft="198,29.2222222222222">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="14.6666666666667,23"
-              Start="0,0"
-              End="14.6666666666667,15.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="10.6666666666667,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="10.6666666666667,0"
-                    Point2="14.6666666666667,0"
-                    Point3="14.6666666666667,4" />
-                  <mssgle:LineSegment
-                    End="14.6666666666667,15.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          TopLeft="11,8.22222222222222" />
+        <NodeLayout
+          Size="122,42"
+          Id="Package\load\Time key"
+          TopLeft="353,422.222222222222" />
+        <NodeLayout
+          Size="142,42"
+          Id="Package\load\Employer key"
+          TopLeft="498,298.222222222222" />
+        <NodeLayout
+          Size="143,42"
+          Id="Package\load\Customer key"
+          TopLeft="160,367.222222222222" />
+        <NodeLayout
+          Size="137,42"
+          Id="Package\load\Supplier key"
+          TopLeft="404,236.222222222222" />
         <EdgeLayout
           Id="Package\load.Paths[Lookup Match Output4]"
-          TopLeft="341,429.888888888889">
+          TopLeft="353,448.888888888889">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -8158,8 +7936,74 @@ where [refTable].[Date] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\load.Paths[Lookup Match Output3]"
+          TopLeft="303,393.888888888889">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="50,43.6666666666666"
+              Start="0,0"
+              End="42.5,43.6666666666666">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="21,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="21,0"
+                    Point2="25,0"
+                    Point3="25,4" />
+                  <mssgle:LineSegment
+                    End="25,39.6666666666666" />
+                  <mssgle:CubicBezierSegment
+                    Point1="25,39.6666666666666"
+                    Point2="25,43.6666666666666"
+                    Point3="29,43.6666666666666" />
+                  <mssgle:LineSegment
+                    End="42.5,43.6666666666666" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-23.19138671875,-17.609375,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\load.Paths[Lookup Match Output2]"
+          TopLeft="498,319.222222222222">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-89,24"
+              Start="0,0"
+              End="-89,16.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-85,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-85,0"
+                    Point2="-89,0"
+                    Point3="-89,4" />
+                  <mssgle:LineSegment
+                    End="-89,16.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-137.19138671875,-17.609375,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package\load.Paths[Lookup Match Output1]"
-          TopLeft="529,238.222222222222">
+          TopLeft="541,257.222222222222">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -8183,41 +8027,13 @@ where [refTable].[Date] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-20.19138671875,-17.609375,96.3827734375,11.609375"
+              BoundingBox="-29.0600390625,-22,114.120078125,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\load.Paths[Data Conversion Output]"
-          TopLeft="319,337.722222222222">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-86.5,22.5"
-              Start="0,0"
-              End="-86.5,15">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-82.5,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-82.5,0"
-                    Point2="-86.5,0"
-                    Point3="-86.5,4" />
-                  <mssgle:LineSegment
-                    End="-86.5,15" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\load.Paths[Lookup Match Output]"
-          TopLeft="344,246.222222222222">
+          TopLeft="356,265.222222222222">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -8247,13 +8063,13 @@ where [refTable].[Date] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-24.19138671875,1,96.3827734375,11.609375"
+              BoundingBox="-33.0600390625,1,114.120078125,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\load.Paths[Derived Column Output]"
-          TopLeft="330.333333333333,479.888888888889">
+          TopLeft="342.333333333333,498.888888888889">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -8286,132 +8102,8 @@ where [refTable].[Date] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\load.Paths[Lookup Match Output3]"
-          TopLeft="304,381.222222222222">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="37,37.3333333333333"
-              Start="0,0"
-              End="29.5,37.3333333333333">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="17.3853211009174,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="17.3853211009174,0"
-                    Point2="21.3853211009174,0"
-                    Point3="21.3853211009174,4" />
-                  <mssgle:LineSegment
-                    End="21.3853211009174,33.3333333333333" />
-                  <mssgle:CubicBezierSegment
-                    Point1="21.3853211009174,33.3333333333333"
-                    Point2="21.3853211009174,37.3333333333333"
-                    Point3="25.3853211009174,37.3333333333333" />
-                  <mssgle:LineSegment
-                    End="29.5,37.3333333333333" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-26.8060656178326,-17.609375,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\load.Paths[OLE DB Source Output1]"
-          TopLeft="284.388888888889,21.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-51.3888888888889,30.7222222222222"
-              Start="0,0"
-              End="-51.3888888888889,23.2222222222222">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-47.3888888888889,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-47.3888888888889,0"
-                    Point2="-51.3888888888889,0"
-                    Point3="-51.3888888888889,4" />
-                  <mssgle:LineSegment
-                    End="-51.3888888888889,23.2222222222222" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\load.Paths[Merge Join Output]"
-          TopLeft="298,74">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="72.666666666667,0"
-              Start="0,0"
-              End="65.166666666667,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="65.166666666667,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\load.Paths[Lookup Match Output2]"
-          TopLeft="486,300.222222222222">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-89,24"
-              Start="0,0"
-              End="-89,16.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-85,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-85,0"
-                    Point2="-89,0"
-                    Point3="-89,4" />
-                  <mssgle:LineSegment
-                    End="-89,16.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-137.19138671875,-17.609375,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="150,42"
-          Id="Package\load\OLE DB Source"
-          TopLeft="556,59" />
-        <NodeLayout
-          Size="139,42"
-          Id="Package\load\Merge Join 1"
-          TopLeft="534,135" />
-        <EdgeLayout
           Id="Package\load.Paths[Sort Output]"
-          TopLeft="419.666666666667,95.7777777777778">
+          TopLeft="431.666666666667,114.777777777778">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -8444,56 +8136,8 @@ where [refTable].[Date] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\load.Paths[OLE DB Source Output2]"
-          TopLeft="628.166666666667,101">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,34"
-              Start="0,0"
-              End="0,26.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="120,42"
-          Id="Package\load\Prod key"
-          TopLeft="313,135" />
-        <EdgeLayout
-          Id="Package\load.Paths[Merge Join Output1]"
-          TopLeft="534,156">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-101,0"
-              Start="0,0"
-              End="-93.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-93.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\load.Paths[Lookup Match Output5]"
-          TopLeft="373,177">
+          TopLeft="385,196">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -8527,9 +8171,241 @@ where [refTable].[Date] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\load.Paths[Merge Join Output]"
+          TopLeft="546,175">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-101,0"
+              Start="0,0"
+              End="-93.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-93.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\load.Paths[Data Conversion Output]"
+          TopLeft="331,364.222222222222">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-28,18.3333333333333"
+              Start="0,0"
+              End="-20.5,18.3333333333333">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-12.1834862385321,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-12.1834862385321,0"
+                    Point2="-16.1834862385321,0"
+                    Point3="-16.1834862385321,4" />
+                  <mssgle:LineSegment
+                    End="-16.1834862385321,14.3333333333333" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-16.1834862385321,14.3333333333333"
+                    Point2="-16.1834862385321,18.3333333333333"
+                    Point3="-20.1834862385321,18.3333333333333" />
+                  <mssgle:LineSegment
+                    End="-20.5,18.3333333333333" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="107,42"
+          Id="Package\load\Sort 1"
+          TopLeft="33,77" />
+        <EdgeLayout
+          Id="Package\load.Paths[OLE DB Source Output]"
+          TopLeft="84.25,50.2222222222222">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,26.7777777777778"
+              Start="0,0"
+              End="0,19.2777777777778">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.2777777777778" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="130,42"
+          Id="Package\load\Merge Join"
+          TopLeft="184,95" />
+        <EdgeLayout
+          Id="Package\load.Paths[Sort Output1]"
+          TopLeft="140,98">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="44,18"
+              Start="0,0"
+              End="36.5,18">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="18,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="18,0"
+                    Point2="22,0"
+                    Point3="22,4" />
+                  <mssgle:LineSegment
+                    End="22,14" />
+                  <mssgle:CubicBezierSegment
+                    Point1="22,14"
+                    Point2="22,18"
+                    Point3="26,18" />
+                  <mssgle:LineSegment
+                    End="36.5,18" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\load.Paths[OLE DB Source Output1]"
+          TopLeft="227.888888888889,50.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="21.111111111111,44.5"
+              Start="0,0"
+              End="21.111111111111,37">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,18.25"
+                    Point2="0,22.25"
+                    Point3="4,22.25" />
+                  <mssgle:LineSegment
+                    End="17.111111111111,22.25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="17.111111111111,22.25"
+                    Point2="21.111111111111,22.25"
+                    Point3="21.111111111111,26.25" />
+                  <mssgle:LineSegment
+                    End="21.111111111111,37" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\load.Paths[Merge Join Output1]"
+          TopLeft="314,116">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="68.666666666667,-22.2222222222222"
+              Start="0,0"
+              End="61.166666666667,-22.2222222222222">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="30.3333333333335,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="30.3333333333335,0"
+                    Point2="34.3333333333335,0"
+                    Point3="34.3333333333335,-4" />
+                  <mssgle:LineSegment
+                    End="34.3333333333335,-18.2222222222222" />
+                  <mssgle:CubicBezierSegment
+                    Point1="34.3333333333335,-18.2222222222222"
+                    Point2="34.3333333333335,-22.2222222222222"
+                    Point3="38.3333333333335,-22.2222222222222" />
+                  <mssgle:LineSegment
+                    End="61.166666666667,-22.2222222222222" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\load.Paths[OLE DB Source Output2]"
+          TopLeft="588,88">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="49.3333333333334,66"
+              Start="0,0"
+              End="49.3333333333334,58.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.149359886202" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,35.149359886202"
+                    Point2="0,39.149359886202"
+                    Point3="4,39.149359886202" />
+                  <mssgle:LineSegment
+                    End="45.3333333333334,39.149359886202" />
+                  <mssgle:CubicBezierSegment
+                    Point1="45.3333333333334,39.149359886202"
+                    Point2="49.3333333333334,39.149359886202"
+                    Point3="49.3333333333334,43.149359886202" />
+                  <mssgle:LineSegment
+                    End="49.3333333333334,58.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\load\Got Shipper key">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\load\Orders">
     <Properties>
@@ -8544,33 +8420,30 @@ where [refTable].[Date] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
+    design-time-name="Package\load\Prod key">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Product]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\load\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\load\Order_details">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Orders stg\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -8596,25 +8469,357 @@ where [refTable].[Date] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\load\Prod key">
+    design-time-name="Package\load\Order_details">
     <Properties>
       <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[Product]</Value>
+        <Name>DataSourceViewID</Name>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q2:string">Table</Value>
       </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Orders stg">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="115,42"
+          Id="Package\Orders stg\Order 1"
+          TopLeft="264,59" />
+        <NodeLayout
+          Size="106,42"
+          Id="Package\Orders stg\Order"
+          TopLeft="60,64" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Orders stg\OLE DB Destination"
+          TopLeft="248,244" />
+        <NodeLayout
+          Size="121,42"
+          Id="Package\Orders stg\Union All"
+          TopLeft="227,165" />
+        <EdgeLayout
+          Id="Package\Orders stg.Paths[OLE DB Source Output1]"
+          TopLeft="321.5,101">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-15.1666666666667,64"
+              Start="0,0"
+              End="-15.1666666666667,56.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,33.8988580750408" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,33.8988580750408"
+                    Point2="0,37.8988580750408"
+                    Point3="-4,37.8988580750408" />
+                  <mssgle:LineSegment
+                    End="-11.1666666666667,37.8988580750408" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-11.1666666666667,37.8988580750408"
+                    Point2="-15.1666666666667,37.8988580750408"
+                    Point3="-15.1666666666667,41.8988580750408" />
+                  <mssgle:LineSegment
+                    End="-15.1666666666667,56.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Orders stg.Paths[OLE DB Source Output]"
+          TopLeft="113,106">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="174.5,59"
+              Start="0,0"
+              End="174.5,51.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.5"
+                    Point2="0,29.5"
+                    Point3="4,29.5" />
+                  <mssgle:LineSegment
+                    End="170.5,29.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="170.5,29.5"
+                    Point2="174.5,29.5"
+                    Point3="174.5,33.5" />
+                  <mssgle:LineSegment
+                    End="174.5,51.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Orders stg.Paths[Union All Output 1]"
+          TopLeft="287.5,207">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="46,37"
+              Start="0,0"
+              End="46,29.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.5"
+                    Point2="0,18.5"
+                    Point3="4,18.5" />
+                  <mssgle:LineSegment
+                    End="42,18.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="42,18.5"
+                    Point2="46,18.5"
+                    Point3="46,22.5" />
+                  <mssgle:LineSegment
+                    End="46,29.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Orders stg\Order 1">
+    <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Orders stg\Order">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Orders stg\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Product stg">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="124,42"
+          Id="Package\Product stg\Product 1"
+          TopLeft="120,40" />
+        <NodeLayout
+          Size="121,42"
+          Id="Package\Product stg\Union All"
+          TopLeft="264,122" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Product stg\OLE DB Destination"
+          TopLeft="302,228" />
+        <NodeLayout
+          Size="124,42"
+          Id="Package\Product stg\Product 2"
+          TopLeft="302,37" />
+        <EdgeLayout
+          Id="Package\Product stg.Paths[Union All Output 1]"
+          TopLeft="324.5,164">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="63,64"
+              Start="0,0"
+              End="63,56.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,28"
+                    Point2="0,32"
+                    Point3="4,32" />
+                  <mssgle:LineSegment
+                    End="59,32" />
+                  <mssgle:CubicBezierSegment
+                    Point1="59,32"
+                    Point2="63,32"
+                    Point3="63,36" />
+                  <mssgle:LineSegment
+                    End="63,56.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Product stg.Paths[OLE DB Source Output1]"
+          TopLeft="364,79">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-20.6666666666667,43"
+              Start="0,0"
+              End="-20.6666666666667,35.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.463295269168" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21.463295269168"
+                    Point2="0,25.463295269168"
+                    Point3="-4,25.463295269168" />
+                  <mssgle:LineSegment
+                    End="-16.6666666666667,25.463295269168" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-16.6666666666667,25.463295269168"
+                    Point2="-20.6666666666667,25.463295269168"
+                    Point3="-20.6666666666667,29.463295269168" />
+                  <mssgle:LineSegment
+                    End="-20.6666666666667,35.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Product stg.Paths[OLE DB Source Output]"
+          TopLeft="182,82">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="142.5,40"
+              Start="0,0"
+              End="142.5,32.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16"
+                    Point2="0,20"
+                    Point3="4,20" />
+                  <mssgle:LineSegment
+                    End="138.5,20" />
+                  <mssgle:CubicBezierSegment
+                    Point1="138.5,20"
+                    Point2="142.5,20"
+                    Point3="142.5,24" />
+                  <mssgle:LineSegment
+                    End="142.5,32.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Product stg\Product 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Product stg\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Product stg\Product 2">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
