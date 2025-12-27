@@ -1,12 +1,159 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\confiz\\Desktop\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{887353BB-AE5A-5AD5-7662-52D08DA548AC}|project.dwproj|C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Sales.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{887353BB-AE5A-5AD5-7662-52D08DA548AC}|project.dwproj|solutionrelative:Sales.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887353BB-AE5A-5AD5-7662-52D08DA548AC}|project.dwproj|C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Time.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{887353BB-AE5A-5AD5-7662-52D08DA548AC}|project.dwproj|solutionrelative:Time.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887353BB-AE5A-5AD5-7662-52D08DA548AC}|project.dwproj|C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Employee.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{887353BB-AE5A-5AD5-7662-52D08DA548AC}|project.dwproj|solutionrelative:Employee.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887353BB-AE5A-5AD5-7662-52D08DA548AC}|project.dwproj|C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Product.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{887353BB-AE5A-5AD5-7662-52D08DA548AC}|project.dwproj|solutionrelative:Product.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887353BB-AE5A-5AD5-7662-52D08DA548AC}|project.dwproj|C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Shipper.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{887353BB-AE5A-5AD5-7662-52D08DA548AC}|project.dwproj|solutionrelative:Shipper.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887353BB-AE5A-5AD5-7662-52D08DA548AC}|project.dwproj|C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Supplier.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{887353BB-AE5A-5AD5-7662-52D08DA548AC}|project.dwproj|solutionrelative:Supplier.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887353BB-AE5A-5AD5-7662-52D08DA548AC}|project.dwproj|C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Category.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{887353BB-AE5A-5AD5-7662-52D08DA548AC}|project.dwproj|solutionrelative:Category.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887353BB-AE5A-5AD5-7662-52D08DA548AC}|project.dwproj|C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Employee City.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{887353BB-AE5A-5AD5-7662-52D08DA548AC}|project.dwproj|solutionrelative:Employee City.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887353BB-AE5A-5AD5-7662-52D08DA548AC}|project.dwproj|C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Customer.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{887353BB-AE5A-5AD5-7662-52D08DA548AC}|project.dwproj|solutionrelative:Customer.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sales.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Sales.cube",
+              "RelativeDocumentMoniker": "Sales.cube",
+              "ToolTip": "C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Sales.cube [Design]",
+              "RelativeToolTip": "Sales.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-27T10:58:15.182Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Shipper.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Shipper.dim",
+              "RelativeDocumentMoniker": "Shipper.dim",
+              "ToolTip": "C:\\Users\\confiz\\Desktop\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Shipper.dim [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Desktop\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Shipper.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-24T17:51:38.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Category.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Category.dim",
+              "RelativeDocumentMoniker": "Category.dim",
+              "ToolTip": "C:\\Users\\confiz\\Desktop\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Category.dim [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Desktop\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Category.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-24T17:46:13.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Time.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Time.dim",
+              "RelativeDocumentMoniker": "Time.dim",
+              "ToolTip": "C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Time.dim [Design]",
+              "RelativeToolTip": "Time.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-24T17:44:29.972Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Employee.dim",
+              "RelativeDocumentMoniker": "Employee.dim",
+              "ToolTip": "C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Employee.dim [Design]",
+              "RelativeToolTip": "Employee.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-24T18:27:19.484Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Product.dim",
+              "RelativeDocumentMoniker": "Product.dim",
+              "ToolTip": "C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Product.dim [Design]",
+              "RelativeToolTip": "Product.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-24T17:46:40.989Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Supplier.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Supplier.dim",
+              "RelativeDocumentMoniker": "Supplier.dim",
+              "ToolTip": "C:\\Users\\confiz\\Desktop\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Supplier.dim [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Desktop\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Supplier.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-24T17:52:20.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Employee City.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Employee City.dim",
+              "RelativeDocumentMoniker": "Employee City.dim",
+              "ToolTip": "C:\\Users\\confiz\\Desktop\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Employee City.dim [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Desktop\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Employee City.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-24T17:48:18.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Customer.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\confiz\\Documents\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Customer.dim",
+              "RelativeDocumentMoniker": "Customer.dim",
+              "ToolTip": "C:\\Users\\confiz\\Desktop\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Customer.dim [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Desktop\\Data warehouse\\project\\DataWarehouse\\ssas\\project\\Customer.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-24T17:47:16.19Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

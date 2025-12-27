@@ -6,10 +6,97 @@
     <Name>project.database</Name>
     <FullPath>project.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Sales.cube</Name>
+      <FullPath>Sales.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Sales.partitions</Name>
+          <FullPath>Sales.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Time.dim</Name>
+      <FullPath>Time.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Category.dim</Name>
+      <FullPath>Category.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Product.dim</Name>
+      <FullPath>Product.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Customer.dim</Name>
+      <FullPath>Customer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Employee City.dim</Name>
+      <FullPath>Employee City.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Shipper.dim</Name>
+      <FullPath>Shipper.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Supplier.dim</Name>
+      <FullPath>Supplier.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Employee.dim</Name>
+      <FullPath>Employee.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>Data Source.ds</Name>
+      <FullPath>Data Source.ds</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DW_Northwind.ds</Name>
+      <FullPath>DW_Northwind.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>DW_Northwind.dsv</Name>
+      <FullPath>DW_Northwind.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>Data Source</Id>
+            <Name>Data Source</Name>
+            <Value xsi:type="xsd:string">Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Initial Catalog=DW_Northwind</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>DW_Northwind</Id>
+            <Name>DW_Northwind</Name>
+            <Value xsi:type="xsd:string">Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Initial Catalog=DW_Northwind</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Data Source</Id>
+            <Name>Data Source</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>DW_Northwind</Id>
+            <Name>DW_Northwind</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>

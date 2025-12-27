@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="141"
-  DTS:VersionGUID="{4BC14639-4DB5-42F4-9EB6-4BC4157A78BC}">
+  DTS:VersionBuild="144"
+  DTS:VersionGUID="{DB00C116-93ED-4989-A08C-2F83C7D941B1}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -110,26 +110,52 @@
           DTS:Format="Delimited"
           DTS:LocaleID="1033"
           DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\confiz\Downloads\1.csv">
+          DTS:ConnectionString="C:\Users\confiz\Downloads\2.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="3"
               DTS:TextQualified="True"
-              DTS:ObjectName="OrderID"
-              DTS:DTSID="{12891763-157C-4DC9-91D2-BEF04777F185}"
+              DTS:ObjectName="SupplierID"
+              DTS:DTSID="{7CA09910-64A5-458E-98DD-AEED82E42F95}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="3"
               DTS:TextQualified="True"
-              DTS:ObjectName="ProductID"
-              DTS:DTSID="{1C6F84D6-D3F9-4147-B3A0-A7E499732B80}"
+              DTS:ObjectName="CategoryID"
+              DTS:DTSID="{92B51E49-BB4B-4FD0-AFED-B8107AC53827}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="10"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CustomerID"
+              DTS:DTSID="{E87A2A20-CF97-4AF7-9095-9A8017B983D2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="EmployeeID"
+              DTS:DTSID="{FB27E0C1-4325-4FE9-8000-BEC10073F032}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="OrderID"
+              DTS:DTSID="{3142670F-8E8D-4472-BFE2-E96600E14B3E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -139,7 +165,7 @@
               DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="UnitPrice"
-              DTS:DTSID="{310A402B-7EE4-4CB1-9D2B-043AF5E7CC16}"
+              DTS:DTSID="{C4715457-FF69-46EE-B80F-E3F80C7E9328}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -147,17 +173,65 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="Quantity"
-              DTS:DTSID="{18390FF7-72F5-4C1E-BFEC-314EB8379974}"
+              DTS:DTSID="{14E8F908-E4EA-45DA-8BBB-5550E3D30DC6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="131"
               DTS:DataPrecision="4"
               DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Discount"
-              DTS:DTSID="{8BB80DB7-DC23-4009-92D5-ABD8D2EFF16C}"
+              DTS:DTSID="{FF1B0D2F-C8E3-4A0F-99C7-7FE42AD7DF85}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ShipVia"
+              DTS:DTSID="{A038C0A3-8741-4907-91A6-530CB4D56CD7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="133"
+              DTS:TextQualified="True"
+              DTS:ObjectName="OrderDate"
+              DTS:DTSID="{534CD157-DDC3-4A0E-B338-71CACBDFC1A1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ProductID"
+              DTS:DTSID="{2C9BF80B-A6F2-47BE-89BB-25DA710A3753}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ProductKey"
+              DTS:DTSID="{8BA37C45-0372-4F61-9606-E30476C6B60D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorCode"
+              DTS:DTSID="{68FB61C8-0928-48BD-8AF0-8A9F2DA41D23}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorColumn"
+              DTS:DTSID="{876CFF67-1999-4EDA-92AB-A3A68385AFA9}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -826,11 +900,256 @@
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SupplierID"
+              DTS:DTSID="{12D914D3-C802-4712-BD67-1C57C691E1BE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CategoryID"
+              DTS:DTSID="{75D75D16-9EA3-47D2-A29B-231759902479}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="10"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CustomerID"
+              DTS:DTSID="{07E2C03A-0791-474C-B4B0-039058B46015}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="EmployeeID"
+              DTS:DTSID="{11FD38B2-148E-406E-9931-F2D46A9F5D6E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="OrderID"
-              DTS:DTSID="{1B962086-5A55-4738-9A23-7092D7FCCA79}"
+              DTS:DTSID="{481BEF83-C0A4-4A69-8582-07CFF900D8E7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="131"
+              DTS:DataPrecision="10"
+              DTS:DataScale="2"
+              DTS:TextQualified="True"
+              DTS:ObjectName="UnitPrice"
+              DTS:DTSID="{D3CE5C6C-A674-4AAD-B606-8E2146C5B005}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Quantity"
+              DTS:DTSID="{633568F7-3ABD-47F4-A526-2E0AD20EB429}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="131"
+              DTS:DataPrecision="4"
+              DTS:DataScale="2"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Discount"
+              DTS:DTSID="{06E08DA8-DD2B-479F-80CC-C294787D37E3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ShipVia"
+              DTS:DTSID="{6D2C3F18-568B-4445-BFD3-245FD1264CDE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="133"
+              DTS:TextQualified="True"
+              DTS:ObjectName="OrderDate"
+              DTS:DTSID="{A5593451-CA57-4D37-895C-832192BD1EE4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ProductID"
+              DTS:DTSID="{537675BA-D687-47AA-A271-CCFF2D8676B7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ProductKey"
+              DTS:DTSID="{3B5647FA-F3DC-4C30-9879-A457DA4114EC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorCode"
+              DTS:DTSID="{D437932D-DC32-495D-ABC1-8F8ED260F7DE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorColumn"
+              DTS:DTSID="{33A21179-F0C7-45A3-A723-8F368E02171E}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 6]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{41382694-B714-4DD2-9C50-CAE2097D3D33}"
+      DTS:ObjectName="Flat File Connection Manager 6">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\confiz\Downloads\2.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SupplierID"
+              DTS:DTSID="{FD46105D-C90A-4D6B-A3EF-670A34D06400}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CategoryID"
+              DTS:DTSID="{DD7EA8FF-5834-42F8-B7DB-8C94EFCE11C2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="10"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CustomerID"
+              DTS:DTSID="{D0F6A7DE-3AAE-4493-9503-CE5F1A14B00A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="EmployeeID"
+              DTS:DTSID="{2799DEB8-D42D-4441-A171-E380F9B9DEBD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="OrderID"
+              DTS:DTSID="{22960351-5BC1-4B84-9890-3FAD71C054F6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="131"
+              DTS:DataPrecision="10"
+              DTS:DataScale="2"
+              DTS:TextQualified="True"
+              DTS:ObjectName="UnitPrice"
+              DTS:DTSID="{FA315712-DCCE-494F-8E5E-D7C55AFECF3D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Quantity"
+              DTS:DTSID="{45D90494-32D8-4A37-B707-E5F1E86DD8A8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="131"
+              DTS:DataPrecision="4"
+              DTS:DataScale="2"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Discount"
+              DTS:DTSID="{FA5A1287-D5FB-465B-85B5-B5A7F45422B5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ShipVia"
+              DTS:DTSID="{1B07C6D3-2A40-45E0-8751-F19E475BC7C4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="133"
+              DTS:TextQualified="True"
+              DTS:ObjectName="OrderDate"
+              DTS:DTSID="{402134A7-758A-40B4-AE04-FB83EF59E67C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ProductID"
+              DTS:DTSID="{5AF905FC-0A18-4229-BD88-528C6D066270}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ProductKey"
+              DTS:DTSID="{59200171-42C1-4D85-84F4-CC95FEE389E3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorCode"
+              DTS:DTSID="{753F6FDD-2173-4ACC-AC20-211E485C19B7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorColumn"
+              DTS:DTSID="{8B84746D-7838-48D4-BE6D-25D9FEA3249F}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1171,7 +1490,7 @@ where [refTable].[EmployeeKey] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\load\588:invalid};</property>
+                  name="ParameterMap">#{Package\load\Flat File Destination};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -1271,6 +1590,202 @@ where [refTable].[EmployeeKey] = ?</property>
                   <externalMetadataColumns />
                 </output>
               </outputs>
+            </component>
+            <component
+              refId="Package\load\Flat File Destination"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Destination"
+              localeId="1033"
+              name="Flat File Destination"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether the data will overwrite or append to the destination file."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the text to write to the destination file before any data is written."
+                  expressionType="Notify"
+                  name="Header" />
+                <property
+                  dataType="System.Boolean"
+                  description="When text qualifier is enabled, specifies whether the text qualifier in the data written to the destination file will be escaped or not."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\load\Flat File Destination.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input]"
+                  hasSideEffects="true"
+                  name="Flat File Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].Columns[SupplierID]"
+                      cachedDataType="i4"
+                      cachedName="SupplierID"
+                      externalMetadataColumnId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[SupplierID]"
+                      lineageId="Package\load\Merge Join 1.Outputs[Merge Join Output].Columns[SupplierID]" />
+                    <inputColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].Columns[CategoryID]"
+                      cachedDataType="i4"
+                      cachedName="CategoryID"
+                      externalMetadataColumnId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[CategoryID]"
+                      lineageId="Package\load\Merge Join 1.Outputs[Merge Join Output].Columns[CategoryID]" />
+                    <inputColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].Columns[CustomerID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="CustomerID"
+                      externalMetadataColumnId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[CustomerID]"
+                      lineageId="Package\load\Merge Join 1.Outputs[Merge Join Output].Columns[CustomerID]" />
+                    <inputColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].Columns[EmployeeID]"
+                      cachedDataType="i4"
+                      cachedName="EmployeeID"
+                      externalMetadataColumnId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[EmployeeID]"
+                      lineageId="Package\load\Merge Join 1.Outputs[Merge Join Output].Columns[EmployeeID]" />
+                    <inputColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].Columns[OrderID]"
+                      cachedDataType="i4"
+                      cachedName="OrderID"
+                      externalMetadataColumnId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[OrderID]"
+                      lineageId="Package\load\Merge Join 1.Outputs[Merge Join Output].Columns[OrderID]" />
+                    <inputColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].Columns[UnitPrice]"
+                      cachedDataType="numeric"
+                      cachedName="UnitPrice"
+                      cachedPrecision="10"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[UnitPrice]"
+                      lineageId="Package\load\Merge Join 1.Outputs[Merge Join Output].Columns[UnitPrice]" />
+                    <inputColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].Columns[Quantity]"
+                      cachedDataType="i4"
+                      cachedName="Quantity"
+                      externalMetadataColumnId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Quantity]"
+                      lineageId="Package\load\Merge Join 1.Outputs[Merge Join Output].Columns[Quantity]" />
+                    <inputColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].Columns[Discount]"
+                      cachedDataType="numeric"
+                      cachedName="Discount"
+                      cachedPrecision="4"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Discount]"
+                      lineageId="Package\load\Merge Join 1.Outputs[Merge Join Output].Columns[Discount]" />
+                    <inputColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].Columns[ShipVia]"
+                      cachedDataType="i4"
+                      cachedName="ShipVia"
+                      externalMetadataColumnId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ShipVia]"
+                      lineageId="Package\load\Merge Join 1.Outputs[Merge Join Output].Columns[ShipVia]" />
+                    <inputColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].Columns[OrderDate]"
+                      cachedDataType="dbDate"
+                      cachedName="OrderDate"
+                      externalMetadataColumnId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[OrderDate]"
+                      lineageId="Package\load\Merge Join 1.Outputs[Merge Join Output].Columns[OrderDate]" />
+                    <inputColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      cachedSortKeyPosition="1"
+                      externalMetadataColumnId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ProductID]"
+                      lineageId="Package\load\Merge Join 1.Outputs[Merge Join Output].Columns[ProductID]" />
+                    <inputColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].Columns[ProductKey]"
+                      cachedDataType="i4"
+                      cachedName="ProductKey"
+                      externalMetadataColumnId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ProductKey]"
+                      lineageId="Package\load\Prod key.Outputs[Lookup Match Output].Columns[ProductKey]" />
+                    <inputColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].Columns[ErrorCode]"
+                      cachedDataType="i4"
+                      cachedName="ErrorCode"
+                      externalMetadataColumnId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorCode]"
+                      lineageId="Package\load\Got Shipper key.Outputs[Lookup Error Output].Columns[ErrorCode]" />
+                    <inputColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].Columns[ErrorColumn]"
+                      cachedDataType="i4"
+                      cachedName="ErrorColumn"
+                      externalMetadataColumnId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorColumn]"
+                      lineageId="Package\load\Got Shipper key.Outputs[Lookup Error Output].Columns[ErrorColumn]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[SupplierID]"
+                      dataType="i4"
+                      name="SupplierID" />
+                    <externalMetadataColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[CategoryID]"
+                      dataType="i4"
+                      name="CategoryID" />
+                    <externalMetadataColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[CustomerID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="CustomerID" />
+                    <externalMetadataColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[EmployeeID]"
+                      dataType="i4"
+                      name="EmployeeID" />
+                    <externalMetadataColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[OrderID]"
+                      dataType="i4"
+                      name="OrderID" />
+                    <externalMetadataColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[UnitPrice]"
+                      dataType="numeric"
+                      name="UnitPrice"
+                      precision="10"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Quantity]"
+                      dataType="i4"
+                      name="Quantity" />
+                    <externalMetadataColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Discount]"
+                      dataType="numeric"
+                      name="Discount"
+                      precision="4"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ShipVia]"
+                      dataType="i4"
+                      name="ShipVia" />
+                    <externalMetadataColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[OrderDate]"
+                      dataType="dbDate"
+                      name="OrderDate" />
+                    <externalMetadataColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ProductID]"
+                      dataType="i4"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ProductKey]"
+                      dataType="i4"
+                      name="ProductKey" />
+                    <externalMetadataColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorCode]"
+                      dataType="i4"
+                      name="ErrorCode" />
+                    <externalMetadataColumn
+                      refId="Package\load\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorColumn]"
+                      dataType="i4"
+                      name="ErrorColumn" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
             </component>
             <component
               refId="Package\load\Got Shipper key"
@@ -3814,7 +4329,7 @@ where [refTable].[SupplierKey] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\load\589:invalid};</property>
+                  name="ParameterMap">#{Package\load\Flat File Destination.Inputs[Flat File Destination Input]};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -4085,6 +4600,11 @@ where [refTable].[Date] = ?</property>
               endId="Package\load\OLE DB Destination.Inputs[OLE DB Destination Input]"
               name="Derived Column Output"
               startId="Package\load\Sales Price.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\load.Paths[Lookup Error Output]"
+              endId="Package\load\Flat File Destination.Inputs[Flat File Destination Input]"
+              name="Lookup Error Output"
+              startId="Package\load\Got Shipper key.Outputs[Lookup Error Output]" />
             <path
               refId="Package\load.Paths[Lookup Match Output]"
               endId="Package\load\Supplier key.Inputs[Lookup Input]"
@@ -7661,13 +8181,13 @@ where [refTable].[Date] = ?</property>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
+          Size="99,42"
+          Id="Package\load"
+          TopLeft="38.5,314" />
+        <NodeLayout
           Size="141,42"
           Id="Package\Order Details"
           TopLeft="36.5,45.5" />
-        <NodeLayout
-          Size="99,42"
-          Id="Package\load"
-          TopLeft="36.5,312" />
         <NodeLayout
           Size="128,42"
           Id="Package\Orders stg"
@@ -7680,179 +8200,14 @@ where [refTable].[Date] = ?</property>
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\Order Details">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="160,42"
-          Id="Package\Order Details\stg_order_details"
-          TopLeft="111,231" />
-        <NodeLayout
-          Size="121,42"
-          Id="Package\Order Details\Union All"
-          TopLeft="167,91" />
-        <NodeLayout
-          Size="141,42"
-          Id="Package\Order Details\Order Details 1"
-          TopLeft="279,21" />
-        <NodeLayout
-          Size="141,42"
-          Id="Package\Order Details\Order Details"
-          TopLeft="85,25" />
-        <EdgeLayout
-          Id="Package\Order Details.Paths[Union All Output 1]"
-          TopLeft="227.5,133">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-36.5,98"
-              Start="0,0"
-              End="-36.5,90.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,45" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,45"
-                    Point2="0,49"
-                    Point3="-4,49" />
-                  <mssgle:LineSegment
-                    End="-32.5,49" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-32.5,49"
-                    Point2="-36.5,49"
-                    Point3="-36.5,53" />
-                  <mssgle:LineSegment
-                    End="-36.5,90.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Order Details.Paths[OLE DB Source Output1]"
-          TopLeft="349.5,63">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-103.166666666667,28"
-              Start="0,0"
-              End="-103.166666666667,20.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,12.5807504078303" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,12.5807504078303"
-                    Point2="0,16.5807504078303"
-                    Point3="-4,16.5807504078303" />
-                  <mssgle:LineSegment
-                    End="-99.1666666666667,16.5807504078303" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-99.1666666666667,16.5807504078303"
-                    Point2="-103.166666666667,16.5807504078303"
-                    Point3="-103.166666666667,20.5807504078303" />
-                  <mssgle:LineSegment
-                    End="-103.166666666667,20.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Order Details.Paths[OLE DB Source Output]"
-          TopLeft="155.5,67">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="72,24"
-              Start="0,0"
-              End="72,16.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,8" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,8"
-                    Point2="0,12"
-                    Point3="4,12" />
-                  <mssgle:LineSegment
-                    End="68,12" />
-                  <mssgle:CubicBezierSegment
-                    Point1="68,12"
-                    Point2="72,12"
-                    Point3="72,16" />
-                  <mssgle:LineSegment
-                    End="72,16.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Order Details\stg_order_details">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Order Details\Order Details 1">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Order Details\Order Details">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
     design-time-name="Package\load">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="154,42"
-          Id="Package\load\Got Shipper key"
-          TopLeft="202,244.222222222222" />
+          Size="98,42"
+          Id="Package\load\Sort"
+          TopLeft="382.666666666667,72.7777777777778" />
         <NodeLayout
           Size="129,42"
           Id="Package\load\Sales Price"
@@ -7862,13 +8217,13 @@ where [refTable].[Date] = ?</property>
           Id="Package\load\Orders"
           TopLeft="172.388888888889,8.5" />
         <NodeLayout
+          Size="154,42"
+          Id="Package\load\Got Shipper key"
+          TopLeft="202,244.222222222222" />
+        <NodeLayout
           Size="156,42"
           Id="Package\load\Data Conversion"
           TopLeft="331,343.222222222222" />
-        <NodeLayout
-          Size="120,42"
-          Id="Package\load\Prod key"
-          TopLeft="325,154" />
         <NodeLayout
           Size="171,42"
           Id="Package\load\OLE DB Destination"
@@ -7878,21 +8233,29 @@ where [refTable].[Date] = ?</property>
           Id="Package\load\OLE DB Source"
           TopLeft="513,46" />
         <NodeLayout
+          Size="107,42"
+          Id="Package\load\Sort 1"
+          TopLeft="33,77" />
+        <NodeLayout
           Size="139,42"
           Id="Package\load\Merge Join 1"
           TopLeft="546,154" />
         <NodeLayout
-          Size="98,42"
-          Id="Package\load\Sort"
-          TopLeft="382.666666666667,72.7777777777778" />
+          Size="130,42"
+          Id="Package\load\Merge Join"
+          TopLeft="184,95" />
         <NodeLayout
           Size="142,42"
           Id="Package\load\Order_details"
           TopLeft="11,8.22222222222222" />
         <NodeLayout
-          Size="122,42"
-          Id="Package\load\Time key"
-          TopLeft="353,422.222222222222" />
+          Size="137,42"
+          Id="Package\load\Supplier key"
+          TopLeft="404,236.222222222222" />
+        <NodeLayout
+          Size="120,42"
+          Id="Package\load\Prod key"
+          TopLeft="325,154" />
         <NodeLayout
           Size="142,42"
           Id="Package\load\Employer key"
@@ -7902,9 +8265,157 @@ where [refTable].[Date] = ?</property>
           Id="Package\load\Customer key"
           TopLeft="160,367.222222222222" />
         <NodeLayout
-          Size="137,42"
-          Id="Package\load\Supplier key"
-          TopLeft="404,236.222222222222" />
+          Size="122,42"
+          Id="Package\load\Time key"
+          TopLeft="353,422.222222222222" />
+        <EdgeLayout
+          Id="Package\load.Paths[OLE DB Source Output1]"
+          TopLeft="227.888888888889,50.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="21.111111111111,44.5"
+              Start="0,0"
+              End="21.111111111111,37">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,18.25"
+                    Point2="0,22.25"
+                    Point3="4,22.25" />
+                  <mssgle:LineSegment
+                    End="17.111111111111,22.25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="17.111111111111,22.25"
+                    Point2="21.111111111111,22.25"
+                    Point3="21.111111111111,26.25" />
+                  <mssgle:LineSegment
+                    End="21.111111111111,37" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\load.Paths[OLE DB Source Output]"
+          TopLeft="84.25,50.2222222222222">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,26.7777777777778"
+              Start="0,0"
+              End="0,19.2777777777778">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.2777777777778" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\load.Paths[Merge Join Output1]"
+          TopLeft="314,116">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="68.666666666667,-22.2222222222222"
+              Start="0,0"
+              End="61.166666666667,-22.2222222222222">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="30.3333333333335,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="30.3333333333335,0"
+                    Point2="34.3333333333335,0"
+                    Point3="34.3333333333335,-4" />
+                  <mssgle:LineSegment
+                    End="34.3333333333335,-18.2222222222222" />
+                  <mssgle:CubicBezierSegment
+                    Point1="34.3333333333335,-18.2222222222222"
+                    Point2="34.3333333333335,-22.2222222222222"
+                    Point3="38.3333333333335,-22.2222222222222" />
+                  <mssgle:LineSegment
+                    End="61.166666666667,-22.2222222222222" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\load.Paths[Merge Join Output]"
+          TopLeft="546,175">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-101,0"
+              Start="0,0"
+              End="-93.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-93.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\load.Paths[Lookup Match Output5]"
+          TopLeft="385,196">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-106,48.222222222222"
+              Start="0,0"
+              End="-106,40.722222222222">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.111111111111" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.111111111111"
+                    Point2="0,24.111111111111"
+                    Point3="-4,24.111111111111" />
+                  <mssgle:LineSegment
+                    End="-102,24.111111111111" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-102,24.111111111111"
+                    Point2="-106,24.111111111111"
+                    Point3="-106,28.111111111111" />
+                  <mssgle:LineSegment
+                    End="-106,40.722222222222" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-110.0600390625,29.111111111111,114.120078125,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\load.Paths[Lookup Match Output4]"
           TopLeft="353,448.888888888889">
@@ -8027,7 +8538,7 @@ where [refTable].[Date] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-29.0600390625,-22,114.120078125,16"
+              BoundingBox="-20.19138671875,-17.609375,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -8102,98 +8613,6 @@ where [refTable].[Date] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\load.Paths[Sort Output]"
-          TopLeft="431.666666666667,114.777777777778">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="183.833333333333,39.2222222222222"
-              Start="0,0"
-              End="183.833333333333,31.7222222222222">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,15.6111111111111" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,15.6111111111111"
-                    Point2="0,19.6111111111111"
-                    Point3="4,19.6111111111111" />
-                  <mssgle:LineSegment
-                    End="179.833333333333,19.6111111111111" />
-                  <mssgle:CubicBezierSegment
-                    Point1="179.833333333333,19.6111111111111"
-                    Point2="183.833333333333,19.6111111111111"
-                    Point3="183.833333333333,23.6111111111111" />
-                  <mssgle:LineSegment
-                    End="183.833333333333,31.7222222222222" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\load.Paths[Lookup Match Output5]"
-          TopLeft="385,196">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-106,48.222222222222"
-              Start="0,0"
-              End="-106,40.722222222222">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,20.111111111111" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20.111111111111"
-                    Point2="0,24.111111111111"
-                    Point3="-4,24.111111111111" />
-                  <mssgle:LineSegment
-                    End="-102,24.111111111111" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-102,24.111111111111"
-                    Point2="-106,24.111111111111"
-                    Point3="-106,28.111111111111" />
-                  <mssgle:LineSegment
-                    End="-106,40.722222222222" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-101.19138671875,29.111111111111,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\load.Paths[Merge Join Output]"
-          TopLeft="546,175">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-101,0"
-              Start="0,0"
-              End="-93.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-93.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\load.Paths[Data Conversion Output]"
           TopLeft="331,364.222222222222">
           <EdgeLayout.Curve>
@@ -8227,36 +8646,6 @@ where [refTable].[Date] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="107,42"
-          Id="Package\load\Sort 1"
-          TopLeft="33,77" />
-        <EdgeLayout
-          Id="Package\load.Paths[OLE DB Source Output]"
-          TopLeft="84.25,50.2222222222222">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,26.7777777777778"
-              Start="0,0"
-              End="0,19.2777777777778">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,19.2777777777778" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="130,42"
-          Id="Package\load\Merge Join"
-          TopLeft="184,95" />
         <EdgeLayout
           Id="Package\load.Paths[Sort Output1]"
           TopLeft="140,98">
@@ -8292,65 +8681,31 @@ where [refTable].[Date] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\load.Paths[OLE DB Source Output1]"
-          TopLeft="227.888888888889,50.5">
+          Id="Package\load.Paths[Sort Output]"
+          TopLeft="431.666666666667,114.777777777778">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="21.111111111111,44.5"
+              EndConnector="183.833333333333,39.2222222222222"
               Start="0,0"
-              End="21.111111111111,37">
+              End="183.833333333333,31.7222222222222">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,18.25" />
+                    End="0,15.6111111111111" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,18.25"
-                    Point2="0,22.25"
-                    Point3="4,22.25" />
+                    Point1="0,15.6111111111111"
+                    Point2="0,19.6111111111111"
+                    Point3="4,19.6111111111111" />
                   <mssgle:LineSegment
-                    End="17.111111111111,22.25" />
+                    End="179.833333333333,19.6111111111111" />
                   <mssgle:CubicBezierSegment
-                    Point1="17.111111111111,22.25"
-                    Point2="21.111111111111,22.25"
-                    Point3="21.111111111111,26.25" />
+                    Point1="179.833333333333,19.6111111111111"
+                    Point2="183.833333333333,19.6111111111111"
+                    Point3="183.833333333333,23.6111111111111" />
                   <mssgle:LineSegment
-                    End="21.111111111111,37" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\load.Paths[Merge Join Output1]"
-          TopLeft="314,116">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="68.666666666667,-22.2222222222222"
-              Start="0,0"
-              End="61.166666666667,-22.2222222222222">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="30.3333333333335,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="30.3333333333335,0"
-                    Point2="34.3333333333335,0"
-                    Point3="34.3333333333335,-4" />
-                  <mssgle:LineSegment
-                    End="34.3333333333335,-18.2222222222222" />
-                  <mssgle:CubicBezierSegment
-                    Point1="34.3333333333335,-18.2222222222222"
-                    Point2="34.3333333333335,-22.2222222222222"
-                    Point3="38.3333333333335,-22.2222222222222" />
-                  <mssgle:LineSegment
-                    End="61.166666666667,-22.2222222222222" />
+                    End="183.833333333333,31.7222222222222" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8393,9 +8748,62 @@ where [refTable].[Date] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="172,42"
+          Id="Package\load\Flat File Destination"
+          TopLeft="92,316" />
+        <EdgeLayout
+          Id="Package\load.Paths[Lookup Error Output]"
+          TopLeft="279,286.222222222222">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-101,29.777777777778"
+              Start="0,0"
+              End="-101,22.277777777778">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,10.888888888889" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,10.888888888889"
+                    Point2="0,14.888888888889"
+                    Point3="-4,14.888888888889" />
+                  <mssgle:LineSegment
+                    End="-97,14.888888888889" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-97,14.888888888889"
+                    Point2="-101,14.888888888889"
+                    Point3="-101,18.888888888889" />
+                  <mssgle:LineSegment
+                    End="-101,22.277777777778" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-105.2350390625,19.888888888889,109.470078125,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\load\Orders">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\load\Got Shipper key">
     <Properties>
@@ -8407,7 +8815,33 @@ where [refTable].[Date] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\load\Orders">
+    design-time-name="Package\load\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\load\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\load\Order_details">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -8442,8 +8876,140 @@ where [refTable].[Date] = ?</property>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Order Details">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="160,42"
+          Id="Package\Order Details\stg_order_details"
+          TopLeft="111,231" />
+        <NodeLayout
+          Size="121,42"
+          Id="Package\Order Details\Union All"
+          TopLeft="167,91" />
+        <NodeLayout
+          Size="141,42"
+          Id="Package\Order Details\Order Details 1"
+          TopLeft="279,21" />
+        <NodeLayout
+          Size="141,42"
+          Id="Package\Order Details\Order Details"
+          TopLeft="85,25" />
+        <EdgeLayout
+          Id="Package\Order Details.Paths[Union All Output 1]"
+          TopLeft="227.5,133">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-36.5,98"
+              Start="0,0"
+              End="-36.5,90.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,45" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,45"
+                    Point2="0,49"
+                    Point3="-4,49" />
+                  <mssgle:LineSegment
+                    End="-32.5,49" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-32.5,49"
+                    Point2="-36.5,49"
+                    Point3="-36.5,53" />
+                  <mssgle:LineSegment
+                    End="-36.5,90.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Order Details.Paths[OLE DB Source Output1]"
+          TopLeft="349.5,63">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-103.166666666667,28"
+              Start="0,0"
+              End="-103.166666666667,20.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,12.5807504078303" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,12.5807504078303"
+                    Point2="0,16.5807504078303"
+                    Point3="-4,16.5807504078303" />
+                  <mssgle:LineSegment
+                    End="-99.1666666666667,16.5807504078303" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-99.1666666666667,16.5807504078303"
+                    Point2="-103.166666666667,16.5807504078303"
+                    Point3="-103.166666666667,20.5807504078303" />
+                  <mssgle:LineSegment
+                    End="-103.166666666667,20.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Order Details.Paths[OLE DB Source Output]"
+          TopLeft="155.5,67">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="72,24"
+              Start="0,0"
+              End="72,16.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,8" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,8"
+                    Point2="0,12"
+                    Point3="4,12" />
+                  <mssgle:LineSegment
+                    End="68,12" />
+                  <mssgle:CubicBezierSegment
+                    Point1="68,12"
+                    Point2="72,12"
+                    Point3="72,16" />
+                  <mssgle:LineSegment
+                    End="72,16.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\load\OLE DB Destination">
+    design-time-name="Package\Order Details\stg_order_details">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -8456,7 +9022,7 @@ where [refTable].[Date] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\load\OLE DB Source">
+    design-time-name="Package\Order Details\Order Details 1">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -8469,7 +9035,7 @@ where [refTable].[Date] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\load\Order_details">
+    design-time-name="Package\Order Details\Order Details">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
