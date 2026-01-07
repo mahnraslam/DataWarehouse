@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>Default</ProcessingOption>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -33,14 +33,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>72p9fyU/L3hKljLoHWPET26ka/M=12/24/2025 10:33:11 PM12/24/2025 10:33:10 PM</TimeStamp>
+        <TimeStamp>qiL9RY2UY1t+W05LFcMQx0W+s6k=12/30/2025 7:29:57 AM12/24/2025 10:33:10 PM</TimeStamp>
         <ID>
           <String>DW_Northwind</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>zwwb9fzZb+XEj0MtwuOGOBS9F+I=12/27/2025 3:57:05 PM12/24/2025 10:44:29 PM</TimeStamp>
+        <TimeStamp>aZsO9k7K1JeTKaEhl/cCqeqoD98=12/29/2025 8:42:12 AM12/24/2025 10:44:29 PM</TimeStamp>
         <ID>
           <String>Time</String>
         </ID>
@@ -54,7 +54,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>ZhLS4gNPWCUSQ9Rd7SftS1HFgPA=12/27/2025 2:36:00 PM12/24/2025 10:46:40 PM</TimeStamp>
+        <TimeStamp>NGC4Bl2ro1A2/hGMgFQS6Rzu8ws=12/29/2025 9:08:58 AM12/24/2025 10:46:40 PM</TimeStamp>
         <ID>
           <String>Product</String>
         </ID>
@@ -96,7 +96,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>qZEsFZENYye5/yREt2yiAevzaBU=12/27/2025 3:58:14 PM12/27/2025 3:58:14 PMsKCGH50TPSwexrUPLcw/6Ls4OGU=12/27/2025 3:58:15 PM12/27/2025 3:58:14 PM</TimeStamp>
+        <TimeStamp>pSofUaBHFN+oQl1HYZgozw/mS1g=12/30/2025 8:11:21 AM12/27/2025 3:58:14 PMA6uResJyrWDipwj5Q2G0153BJ+w=12/30/2025 8:11:21 AM12/27/2025 3:58:14 PM</TimeStamp>
         <ID>
           <String>Sales</String>
         </ID>
@@ -113,5 +113,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2025-12-27T10:58:31.766667Z</LastDeployed>
+  <LastDeployed>2025-12-30T03:11:24.546667Z</LastDeployed>
 </DeploymentSnapshot>
